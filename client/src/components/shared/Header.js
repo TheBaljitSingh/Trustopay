@@ -60,15 +60,19 @@ function Header() {
             { dropdownOpen &&
               <div  class="z-10 absolute font-normal divide-y divide-gray-100 rounded-lg shadow w-44 ">
                 <ul class="py-2 text-sm text-gray-700 " aria-labelledby="dropdownLargeButton">
+                  <li> 
+                    <a onClick={() => handleDropdownClick('/genuine')}   class="block px-4 py-2 md:hover:bg-gray-400 rounded-md hover:cursor-pointer">Genuine</a>
+                  </li>
                   <li>
                     <a onClick={() => handleDropdownClick('product/b2')}  class="block px-4 py-2 md:hover:bg-gray-400 rounded-md hover:cursor-pointer"> B2</a>
                   </li>
                   <li>
                     <a onClick={() => handleDropdownClick('product/b2c')}  class="block px-4 py-2 md:hover:bg-gray-400 rounded-md hover:cursor-pointer ">B2B2</a>
                   </li>
-                  <li>
+                  <li> 
                     <a onClick={() => handleDropdownClick('product/b2c')}   class="block px-4 py-2 md:hover:bg-gray-400 rounded-md hover:cursor-pointer">B2C</a>
                   </li>
+                  
                 </ul>
            
             </div>
