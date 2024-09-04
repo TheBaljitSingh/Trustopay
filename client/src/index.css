@@ -5,8 +5,10 @@
 
 @font-face {
     font-family: 'Macan';
-    src: url('../../../../../Baljit\ Singh/Desktop/MacanPanWeb-Bold.ttf') format('woff2'),
-         url('../../../../../Baljit\ Singh/Desktop/MacanPanWeb-Bold.ttf') format('woff');
+    src: url('../public//MacanPanWeb-Bold.ttf') format('woff2'),
+         url('../public//MacanPanWeb-Bold.ttf') format('woff'),
+         url('../public//MacanPanWeb-Bold.ttf') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }

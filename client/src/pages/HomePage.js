@@ -1,42 +1,7 @@
 import React from 'react'
 import Header from '../components/shared/Header'
 import Footer from "../components/shared/Footer"
-import roundImg from "../assets/images/shape/round.png"
-import googlePlay from "../assets/images/googlePlay.png"
-import appStore from "../assets/images/appstore.png"
-import { PiBank } from "react-icons/pi";
-import person1 from "../assets/images/person1.jpeg"
-import person2 from "../assets/images/person2.jpeg"
-import person3 from "../assets/images/person3.jpeg"
 
-import articulate from "../assets/images/partners/Articulate.png"
-import mobilunity from "../assets/images/partners/Mobilunity.png"
-import narraoone from "../assets/images/partners/Narraoone.png"
-import vihang from "../assets/images/partners/vihang.png"
-
-import ic1 from "../assets/images/trust 1.svg"
-import ic2 from "../assets/images/guarantee 1.svg"
-import ic3 from "../assets/images/end-to-end 1.svg"
-import ic4 from "../assets/images/revenue 1.svg"
-import ic5 from "../assets/images/help-desk 1.svg"
-import ic6 from "../assets/images/conflict-resolution 1.svg"
-
-import s1 from "../assets/images/shape/s1.svg"
-import s2 from "../assets/images/shape/s2.svg"
-import s3 from "../assets/images/shape/s3.svg"
-import s4 from "../assets/images/shape/s4.svg"
-
-
-import faqImg from "../assets/images/Woman and man in the city are standing next to question mark.svg"
-import Faq from 'react-faq-component'
-import tpHome from "../assets/trustopay-Home-page.jpg"
-
-
-
-import { CardHoverEffectDemo } from '../components/CardHoverEffectDemo'
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import FeatureCard from "../components/card/FeatureCard"
 
 import Section1 from "../components/Homepage/Section1"
 import Section2 from '../components/Homepage/Section2'
@@ -46,11 +11,6 @@ import Section5 from "../components/Homepage/Section5"
 import Section6 from "../components/Homepage/Section6"
 import Section7 from "../components/Homepage/Section7"
 
-// import { ClassValue, clsx } from "clsx";
-// import { twMerge } from "tailwind-merge";
-// import { CardHoverEffectDemo } from '../components/cardHoverEffectDemo'
-// 
-// import screw from "../assets/screw.svg"
 
 export default function HomePage() {
 

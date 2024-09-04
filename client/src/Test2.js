@@ -3,22 +3,7 @@ import React from 'react'
 export default function Test2() {
   return (
     <>
-    {/* menu bar */}
 
-    {/* <style>
-            {`
-
-            @keyframes floating {
-                0% { transform: translate(0,  0px); }
-                50%  { transform: translate(0, 15px); }
-                100%   { transform: translate(0, -0px); }    
-            }
-
-            .animated-image{
-            animation: floating 3s infinite ease-in-out
-            }
-            `}
-        </style> */}
 
 
     <div className='bg-[#FAFAFA] p-4' >
