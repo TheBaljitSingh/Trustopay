@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Header from '../components/shared/Header';
 import Footer from '../components/shared/Footer';
 import manRunning from "../assets/man-running.png";
-import articulate from "../assets/images/partners/Articulate.png"
-import mobilunity from "../assets/images/partners/Mobilunity.png"
-import narraoone from "../assets/images/partners/Narraoone.png"
-import vihang from "../assets/images/partners/vihang.png"
+
+import Marquee from "react-fast-marquee";
+
 
 
 export default function AboutPage() {
@@ -107,28 +106,23 @@ export default function AboutPage() {
         <div className='h-24  flex justify-center items-center mt-12'>
           {/* Slider component can go here */}
         <div class="relative flex overflow-x-hidden">
-          <div class="py-12 animate-marquee whitespace-nowrap flex flex-row">
-            <span class="text-4xl mx-4"><img src={vihang} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={narraoone} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
+        <Marquee>
+            
+            <div className='flex gap-4 content-center '>
 
+              <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale h-24'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale h-24 ' alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale h-24'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale h-24'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c9a5_indiamart.webp" className='filter grayscale h-24'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c998_global-TIX-p-500.png"  className='filter grayscale h-24' alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale h-24'  alt="" />
+            </div>
+            
+   
+          </Marquee>
 
-          </div>
-
-          <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex flex-row">
-            <span class="text-4xl mx-4"><img src={vihang}  alt="" /> </span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={narraoone} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-            <span class="text-4xl mx-4"><img src={articulate} alt="" /></span>
-
-          </div>
+      
         </div>
 
 

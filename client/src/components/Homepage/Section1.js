@@ -68,7 +68,7 @@ export default function Section1() {
 
         </div>
 
-        <div className="absolute animate-fade-up animate-once  z-40  top-36 left-[840px] ">
+        <div className="absolute animate-fade-up animate-once hidden md:block  z-40  top-36 left-[840px] ">
         <div className="animated-image flex items-center relative mx-auto border-[#ECECEC] dark:border-[#ECECEC] mb-4 border-[8px] rounded-[2.5rem] h-[500px] w-[250px] shadow-xl">
           <div className="rounded-[2rem] overflow-hidden w-[234px] h-[488px] bg-white dark:bg-gray-800">
             <img src={tpHome} className="block w-full h-full" alt="Mobile Mockup" />
@@ -82,7 +82,7 @@ export default function Section1() {
         <div className='w-10'>
 
         </div>
-        <div className='animate-fade-left animate-once  w-90 shadow-md bg-white mb-12 rounded-xl '>
+        <div className='animate-fade-left hidden md:block animate-once  w-90 shadow-md bg-white mb-12 rounded-xl '>
           <div className='flex justify-end items-center '>
             <img className=' w-full h-[550px] object-cover rounded-xl' src={HDashboard} alt="" />
 
@@ -97,7 +97,7 @@ export default function Section1() {
       </div>
 
       {/* Slider for Trusted By Companies */}
-      <div className='h-40 p-2 bg-[#ffff] mt-24 mb-8'>
+      <div className='h-40 p-2 bg-[#ffff]  -mt-60 md:mt-24 mb-8'>
         <p className='text-md font-semibold font-sans text-start ml-52 uppercase text-gray-600'>Trusted By</p>
         <div className='h-12 flex justify-center items-center mt-12'>
           {/* Slider component */}
@@ -122,24 +122,7 @@ export default function Section1() {
             </div>
           </div> */}
           <Marquee>
-            {/* <div className="py-12 flex flex-row gap-4 justify-center items-center">
-              <img  src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Articulate%202.png" className='h-20 w-72 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/vihang-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/assimulate-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Mobilunity-removebg-preview%20(1)%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/creative_swatch%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Narraoone-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-              <img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Nextdev-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" />
-            </div>
-            <div className="py-12  flex flex-row gap-4 justify-center items-center">
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Articulate%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/vihang-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/assimulate-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Mobilunity-removebg-preview%20(1)%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/creative_swatch%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Narraoone-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Nextdev-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-            </div> */}
+            
             <div className='flex gap-4 content-center '>
 
               <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale h-24'  alt="" />
@@ -158,3 +141,4 @@ export default function Section1() {
     </div>
   );
 }
+
