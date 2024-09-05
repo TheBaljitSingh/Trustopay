@@ -10,13 +10,16 @@ import Section4 from "../components/Homepage/Section4"
 import Section5 from "../components/Homepage/Section5"
 import Section6 from "../components/Homepage/Section6"
 import Section7 from "../components/Homepage/Section7"
+import ContactPopup from '../utils/ContactPopup'
 
 
 export default function HomePage() {
 
+ 
   return(
-    <div>
+    <>
       <Header/>
+      <ContactPopup/>
     <Section1/>
     <Section2/>
     <Section3/>
@@ -27,7 +30,7 @@ export default function HomePage() {
 
     <Footer/>
 
-    </div>
+    </>
 
   )
   
