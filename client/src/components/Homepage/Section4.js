@@ -6,13 +6,15 @@ export default function Section4() {
       <div className="text-center">
         <div className="flex flex-col mt-12 px-4 py-8">
           <h2 className="text-3xl font-bold mb-4 text-[#0B3747] animate-fade-up animate-once animate-ease-in">
-            Across Industries, Across Borders
+            Custom-Fit for Every Sector
           </h2>
           <p className="text-2xl mb-2 text-[#0B3747] animate-fade-up animate-once animate-ease-in">
-            Tailored for diversity, Tazapay bridges payment gaps in sectors ranging from travel to SaaS.
+          Trustopay bridges payment gaps across industries from fintech to second-hand goods.
+             
+
           </p>
           <p className="text-2xl text-[#0B3747] animate-fade-up animate-once animate-ease-in">
-            Our solutions resonate with your industry’s specific needs, ensuring global transactional ease.
+          Our solutions address your unique industry needs, delivering secure and seamless transactions.
           </p>
         </div>
       </div>
@@ -20,12 +22,12 @@ export default function Section4() {
       <div className="mx-auto flex justify-center gap-24 items-center flex-wrap mt-12">
         <div className="grid grid-cols-3 gap-4 mb-12">
           {[
-            { title: 'Travel', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/664c18ee5ec4dc64f5867d95_travel-hero-image-p-800.webp' },
-            { title: 'Online Gaming', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6653c7146067bfa4a450c44a_img_hero_gaming.webp' },
-            { title: 'E-Commerce', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/665fd296317531c068364cc8_img_saas-hero-image-p-800.webp' },
-            { title: 'FinTech', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6687e1871d4ae1461b838b0c_img_hero-fintech.webp' },
-            { title: 'SaaS', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/665fd296317531c068364cc8_img_saas-hero-image-p-800.webp' },
-            { title: 'Digital Goods', p1: 'Edtech and Online Courses', p2: 'Stock Photos & Digital Artwork', p3: 'Music and Streaming', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6684dbd4df6d281e89579cdb_img_digitalproducts-hero-image-p-500.webp' }
+            { title: 'Fintech', p1: 'Secures digital transactions and prevents fraud.', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/664c18ee5ec4dc64f5867d95_travel-hero-image-p-800.webp' },
+            { title: 'Ecommerce', p1: 'Smooth, secure payments with escrow protection.', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6653c7146067bfa4a450c44a_img_hero_gaming.webp' },
+            { title: 'IT Agencies', p1: 'Reliable payments and project management.', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/665fd296317531c068364cc8_img_saas-hero-image-p-800.webp' },
+            { title: 'Digital Marketing', p1: 'Easy payment collection and financial tracking.', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6687e1871d4ae1461b838b0c_img_hero-fintech.webp' },
+            { title: 'Freelancers', p1: ' milestone-based payments and reduced delays.', imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/665fd296317531c068364cc8_img_saas-hero-image-p-800.webp' },
+            { title: 'Second-hand Goods', p1: 'Trusted transactions for pre-owned items.',  imgSrc: 'https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6684dbd4df6d281e89579cdb_img_digitalproducts-hero-image-p-500.webp' }
           ].map((member) => (
             <div key={member.title} className="relative group w-[337px] h-[400px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in">
               {/* Background Image */}
@@ -42,9 +44,9 @@ export default function Section4() {
 
               {/* Description text (initially visible with slight overlay) */}
               <div className='text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100'>
-                <p className="text-white">{member.p1}</p>
-                <p className="text-white">{member.p2}</p>
-                <p className="text-white">{member.p3}</p>
+                <p className="text-white text-2xl">{member.p1}</p>
+                {/* <p className="text-white">{member.p2}</p> */}
+                {/* <p className="text-white">{member.p3}</p> */}
               </div>
             </div>
           ))}

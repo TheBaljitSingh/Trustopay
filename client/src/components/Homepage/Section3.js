@@ -37,7 +37,7 @@ export default function Section3() {
           className={`row-span-1 flex justify-center items-center ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='w-3/4 text-center'>
-            <h2 className='font-bold text-5xl text-[#0B3747] leading-tight w-3/4'>Empowering Your Global Ambitions</h2>
+            <h2 className='font-bold text-5xl text-[#0B3747] leading-tight w-3/4'>Trustopay Impact Snapshot</h2>
           </div>
         </div>
 
@@ -55,9 +55,10 @@ export default function Section3() {
           className={`bg-[#E8FEF0] row-span-1 col-span-2 rounded-lg shadow-md p-8 text-[#0B3747] w-5/6 ${statsInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start'>
-            <h3 className='text-5xl font-bold text-[#FFAE79]'>173+</h3>
-            <p className='text-lg'>Countries</p>
-            <p className='text-start mt-2 w-1/2'>Access more buyers and unlock new segments anywhere, anytime; No need for local entities</p>
+            <h3 className='text-4xl font-bold text-[#FFAE79]'>100% Transaction Security</h3>
+            {/* <p className='text-lg'>Countries</p> */}
+            <p className='text-start mt-4 w-1/2'>Ensuring every payment is protected with advanced encryption and escrow services.
+            </p>
           </div>
         </div>
 
@@ -67,9 +68,10 @@ export default function Section3() {
           className={`bg-[#E8FEF0] row-span-1 col-span-2 rounded-lg shadow-md p-8 text-[#0B3747] w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start'>
-            <h3 className='text-5xl font-bold text-[#FFAE79]'>75+</h3>
-            <p className='text-lg'>Countries</p>
-            <p className='mt-2 w-1/2'>Get access to uncaptured buyers across Asia, Europe, Latam, and Africa</p>
+            <h3 className='text-4xl font-bold text-[#FFAE79]'>15 Lacs+ Processed
+            </h3>
+            <p className='mt-8 w-1/2'>Over 15 lacs in transactions successfully handled, in over partnerships with 40 Agencies.
+            </p>
           </div>
         </div>
 
@@ -79,9 +81,8 @@ export default function Section3() {
           className={`bg-[#E8FEF0] row-span-1 col-span-2 rounded-lg shadow-md p-8 text-[#0B3747] w-5/6 ${info2InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start'>
-            <h3 className='text-5xl font-bold text-[#FFAE79]'>+7%</h3>
-            <p className='text-lg'>Higher Success Rates</p>
-            <p className='text-start mt-2 w-1/2'>Increase your conversion rates to drive net new growth in business</p>
+            <h3 className='text-4xl font-bold text-[#FFAE79]'>+80% Higher Success Rate</h3>
+            <p className='text-start mt-8 w-1/2'>With Trustopay achieve an 80% increase in conversion rates and business growth.</p>
           </div>
         </div>
       </div>
