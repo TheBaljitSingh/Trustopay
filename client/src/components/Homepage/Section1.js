@@ -10,18 +10,19 @@ export default function Section1() {
       <div className='flex flex-col md:flex-row items-start pl-16 mt-24'>
         {/* Left Side Content */}
         <div className="   flex-1 font-custom w-full md:w-1/2 space-y-6 justify-end md:ml-36 transform translate-y-24 md:-translate-y-8">
-          <div className='mb-12 animate-fade-up animate-once'>
+          <div className='mb-4 animate-fade-up animate-once'>
             <h1 className="text-6xl font-bold text-[#051B23] mb-2">
               Your Trusted Payment <span className='   decoration-blue-400 dark:decoration-blue-600'>Solution</span> for<br />  
             </h1>
-            <h1 className='text-5xl text-[#0A86B7]'>India's Digital Economy 
+            <h1 className=' mt-4 h-16 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-5xl text-[#0A86B7]'>India's Digital Economy 
             </h1>
           </div>
-          <div className='space-y-8 animate-fade-up animate-once animate-delay-[500ms]'>
-
-          <p className="text-gray-800 text-3xl font-bold">
+          <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
           Secure Transactions, Built on Trust
           </p>
+          <div className='space-y-6 animate-fade-up animate-once animate-delay-[500ms]'>
+
+          
           <p className='font-normal font-sans text-xl text-[#051B23]'>Empower your business with Trustopay, the secure peer-to-peer payment platform.</p>
           <p className='font-normal font-sans text-xl text-[#051B23] '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
           </div>
