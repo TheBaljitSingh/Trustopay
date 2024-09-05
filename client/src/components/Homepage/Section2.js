@@ -23,7 +23,8 @@ export default function Section2() {
                 headerInView ? 'animate-fade-up animate-once animate-ease-in' : 'opacity-0'
               }`}
             >
-              Global Payment Collections Redefined
+              Redefining Secure Digital Payments 
+
             </h2>
             <p
               ref={headerRef}
@@ -31,7 +32,7 @@ export default function Section2() {
                 headerInView ? 'animate-fade-up animate-delay-500' : 'opacity-0'
               }`}
             >
-              Simplify with Tazapay— a unified platform for efficient worldwide payment collection.
+              Simplify with Trustopay—your platform for seamless and safe transactions across India.
             </p>
             <button
               type="button"
@@ -66,13 +67,15 @@ export default function Section2() {
           >
             {/* 1 */}
             <div className="overflow-hidden max-h-80 bg-gradient-to-b from-white to-green-200 p-6 rounded-xl shadow-lg w-96 mx-auto">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Local Payment Methods</h2>
+              <h2 className="text-xl font-semibold text-gray-800 mb-4"> 5+ Partnered Banks</h2>
               <ul className="text-gray-700 mb-6">
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Available in 100+ countries
+                  <span className="mr-2">•</span> Seamless Bank Connectivity
+
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Zero chargebacks
+                  <span className="mr-2">•</span>Multiple Banks Supported
+
                 </li>
               </ul>
               <div className="flex justify-center items-center">
@@ -88,13 +91,14 @@ export default function Section2() {
 
             {/* 2 */}
             <div className="overflow-hidden max-h-80 bg-gradient-to-b from-white to-green-200 p-6 rounded-xl shadow-lg w-96 mx-auto">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Credit Cards</h2>
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Custom Contracts Creation</h2>
               <ul className="text-gray-700 mb-6">
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Available in 170+ countries
+                  <span className="mr-2">•</span> Tailored Transaction Agreements
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Optimized for cross-border success rates
+                  <span className="mr-2">•</span> Clear, Transparent Terms
+
                 </li>
               </ul>
               <div className="flex justify-center items-center">
@@ -110,13 +114,16 @@ export default function Section2() {
 
             {/* 3 */}
             <div className="overflow-hidden max-h-80 bg-gradient-to-b from-white to-green-200 p-6 rounded-xl shadow-lg w-96 mx-auto">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Global Business Account</h2>
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Milestone-Based Payments
+              </h2>
               <ul className="text-gray-700 mb-6">
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Available in 35+ countries
+                  <span className="mr-2">•</span> Secure Payment Process
+
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> No local entity Required
+                  <span className="mr-2">•</span>Funds Released Safely
+
                 </li>
               </ul>
               <div className="flex justify-center items-center">
@@ -132,13 +139,15 @@ export default function Section2() {
 
             {/* 4 */}
             <div className="overflow-hidden max-h-80 bg-gradient-to-b from-white to-green-200 p-6 rounded-xl shadow-lg w-96 mx-auto">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Payouts</h2>
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Fast Dispute Resolution
+              </h2>
               <ul className="text-gray-700 mb-6">
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Available in 70+ countries
+                  <span className="mr-2">•</span> Swift Conflict Handling
+
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-2">•</span> Competitive FX rates
+                  <span className="mr-2">•</span> 3-Step Quick Resolution
                 </li>
               </ul>
               <div className="flex justify-center items-center">

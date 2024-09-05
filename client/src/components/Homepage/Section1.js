@@ -12,17 +12,18 @@ export default function Section1() {
         <div className="   flex-1 font-custom w-full md:w-1/2 space-y-6 justify-end md:ml-36 transform translate-y-24 md:-translate-y-8">
           <div className='mb-12 animate-fade-up animate-once'>
             <h1 className="text-7xl font-bold text-[#051B23] mb-2">
-              Gateway to <br /> Growth in
+              Your Trusted Payment Solution for<br />  
             </h1>
-            <h1 className='text-6xl text-[#0A86B7]'>Latin America</h1>
+            <h1 className='text-6xl text-[#0A86B7]'>India's Digital Economy 
+            </h1>
           </div>
           <div className='space-y-8 animate-fade-up animate-once animate-delay-[500ms]'>
 
           <p className="text-gray-800 text-3xl font-bold">
-            The world pays here
+          Secure Transactions, Built on Trust
           </p>
-          <p className='font-normal font-sans text-xl text-[#051B23]'>Expand globally with Tazapay, your cross-border payment gateway.</p>
-          <p className='font-normal font-sans text-xl text-[#051B23] '>Simplify international transactions without local <br /> entities.</p>
+          <p className='font-normal font-sans text-xl text-[#051B23]'>Empower your business with Trustopay, the secure peer-to-peer payment platform.</p>
+          <p className='font-normal font-sans text-xl text-[#051B23] '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
           </div>
           <div className='flex justify-start items-center'>
             <button
