@@ -12,7 +12,7 @@ export default function Section5() {
         <div className='h-[400px] bg-[#EDFEF3] flex flex-col justify-center items-center space-y-6'>
           <h2 className='font-bold text-4xl'>Efficiency in Every Transaction</h2>
           <p className='flex font-normal w-3/4 text-xl text-center'>
-            Tazapay delivers robust protection for your cross-border payments, ensuring compliance, chargeback management, and fraud protection.
+          Trustopay offers comprehensive protection for your transactions, ensuring secure payments, fraud prevention, and seamless compliance.
           </p>
         </div>
 
@@ -31,9 +31,11 @@ export default function Section5() {
                 className="w-12 h-12 mb-4"
               />
               <div className='flex flex-col space-y-4'>
-                <h2 className="text-2xl font-semibold mb-2">Simplified Global Compliance</h2>
+                <h2 className="text-2xl font-semibold mb-2">Streamlined Local Compliance
+                </h2>
                 <p className="text-gray-600">
-                  Adhere to global & local standards effortlessly. We handle the complexities, enabling borderless business operations.
+                Effortlessly meet global and local standards with Trustopay. We manage the complexities, so you can focus on growing your business.
+
                 </p>
               </div>
             </div>
@@ -61,9 +63,11 @@ export default function Section5() {
                 className="w-12 h-12 mb-4"
               />
               <div className='flex flex-col space-y-4'>
-                <h2 className="text-2xl font-semibold mb-2">Robust Risk Management</h2>
+                <h2 className="text-2xl font-semibold mb-2">Advanced Risk Management
+                </h2>
                 <p className="text-gray-600">
-                  Advanced safeguards in place to protect your global transactions, minimizing risks.
+                With Trustopay, your transactions are safeguarded by cutting-edge technology, reducing risks and enhancing security.
+
                 </p>
               </div>
             </div>
@@ -91,9 +95,10 @@ export default function Section5() {
                 className="w-12 h-12 mb-4"
               />
               <div className='flex flex-col space-y-4'>
-                <h2 className="text-2xl font-semibold mb-2">Optimized FX Management</h2>
+                <h2 className="text-2xl font-semibold mb-2">Optimized Payment Solutions
+                </h2>
                 <p className="text-gray-600">
-                  Get the best rates in currency exchanges, maximizing your global financial efficiency and revenue margins.
+                Benefit from efficient payment processes and competitive rates with Trustopay, enhancing your financial performance and operational efficiency.
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ const ContactPopup = () => {
   return (
     showPopup && (
      
-      <div className='  animate-fade-up animate-once animate-delay-[3000ms] fixed bottom-0 right-0 w-1/4 bg-gray-800 text-white p-6 flex items-center space-x-4 rounded-lg shadow-lg z-10'>
+      <div className='animate-fade-up animate-once animate-delay-[3000ms] fixed bottom-0 right-0 w-1/4 bg-gray-800 text-white p-6 flex items-center space-x-4 rounded-l-xl shadow-lg z-10'>
       {/* Close Button */}
       <button
         onClick={handleClose}
