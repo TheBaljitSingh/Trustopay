@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import logo from "../../assets/images/trustopay.svg";
+import logo from "../../assets/Trustopay_logo.png";
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
@@ -43,9 +43,9 @@ function Header() {
 
         </div>
         <div className="text-2xl  font-bold text-black">
-          <Link to="/"> <img className='mt-5 w-96 md:w-0' src='https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png' alt="Logo" /></Link>
+          <Link to="/"> <img className='mt-5 w-96 md:w-32 flex item' src='https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png' alt="Logo" /></Link>
         </div>
-      
+        {/* 'https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png' */}
         <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
           <ul class="flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:text-sm  md:border-0 md:bg-white  md:space-x-8 md:rtl:space-x-reverse">
             <li>

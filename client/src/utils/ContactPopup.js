@@ -29,7 +29,7 @@ const ContactPopup = () => {
       <div className='flex flex-col'>
         <h2 className='text-lg font-semibold mb-2'>Need Help Securing Your Payment?</h2>
         <p className='text-sm mb-4'>No obligations, commitment-free</p>
-        <button className='bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-300'>
+        <button className='bg-white hover:bg-gray-400 text-black font-bold py-2 px-6 rounded-full transition duration-300'>
           Contact Us
         </button>
       </div>

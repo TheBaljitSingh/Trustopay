@@ -12,7 +12,7 @@ export default function Section1() {
         <div className="   flex-1 font-custom w-full md:w-1/2 space-y-6 justify-end md:ml-36 transform translate-y-24 md:-translate-y-8">
           <div className='mb-12 animate-fade-up animate-once'>
             <h1 className="text-6xl font-bold text-[#051B23] mb-2">
-              Your Trusted Payment <span className='underline underline-offset-3 decoration-8  decoration-blue-400 dark:decoration-blue-600'>Solution</span> for<br />  
+              Your Trusted Payment <span className='   decoration-blue-400 dark:decoration-blue-600'>Solution</span> for<br />  
             </h1>
             <h1 className='text-5xl text-[#0A86B7]'>India's Digital Economy 
             </h1>
