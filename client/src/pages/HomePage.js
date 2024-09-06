@@ -20,6 +20,7 @@ export default function HomePage() {
     <>
       <Header/>
       <ContactPopup/>
+
     <Section1/>
     <Section2/>
     <Section3/>

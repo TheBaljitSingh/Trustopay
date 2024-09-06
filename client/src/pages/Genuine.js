@@ -12,6 +12,7 @@ export default function Genuine() {
       try {
         const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/websites`);
         setWebsites(response.data);
+        console.log(response.data);
       } catch (error) {
         console.error('Error fetching websites:', error);
       }
@@ -35,6 +36,7 @@ export default function Genuine() {
       try {
         const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/search?q=${query}`);
         setWebsites(response.data);
+        console.log(response.data);
       } catch (error) {
         console.error('Error searching websites:', error);
       }
@@ -48,7 +50,7 @@ export default function Genuine() {
     handleSearch(query);
   };
 
-  const verifiedWebsites = websites.filter((site) => site.verified);
+  // const verifiedWebsites = websites.filter((site) => site.verified);
 
   return (
     <div className="flex flex-col min-h-screen w-full bg-[hsl(var(--background))] font-custom">
@@ -93,7 +95,7 @@ export default function Genuine() {
 
         <div className="max-w-3xl mx-auto h-[calc(100vh-18rem)] overflow-y-auto hide-scrollbar">
           {/* Verified Website Row */}
-          {verifiedWebsites.map((item, index) => (
+          {websites.map((item, index) => (
             <div key={index} className="mb-6">
               <div className="group relative flex items-center rounded-lg bg-[hsl(var(--card))] p-6 shadow-md transition-all hover:bg-[hsl(var(--muted))] hover:shadow-lg">
                 <a href={item.url} className="absolute inset-0 z-10">
@@ -112,13 +114,20 @@ export default function Genuine() {
                   </h3>
                   {item.url && <p className="mt-1 text-sm text-blue-500">{item.url}</p>}
                 </div>
-                <span className="ml-auto text-green-500 font-medium">Verified ✅</span>
+                { item.verified==true? (
+                  <p className='ml-auto text-green-500 font-medium' >verified ✅</p>
+                ):(
+                  <p className='ml-auto text-red-500 font-medium ' >non-verified ❌</p>
+                ) }
+                
+
+                {/* <span className={`ml-auto ${item.verified==true?'text-green-500':'text-red-500'} font-medium`}  >  </span> */}
               </div>
             </div>
           ))}
 
           {/* Non-Verified Websites Section */}
-          <div className="mt-12">
+          {/* <div className="mt-12">
             <div className="flex justify-end items-center mb-4">
               <h3 className="text-lg font-semibold text-[hsl(var(--foreground))] tracking-tight">
                 Non-Verified Websites
@@ -148,7 +157,7 @@ export default function Genuine() {
                   </div>
                 ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>

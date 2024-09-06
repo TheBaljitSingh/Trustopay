@@ -7,16 +7,17 @@ import AnimatedCities from "../../utils/AnimatedCities";
 
 export default function Section1() {
   return (
-    <div className='h-auto'>
+    <div className='h-auto max-w-full '>
       <div className='flex flex-col md:flex-row items-start pl-16 mt-24'>
         {/* Left Side Content */}
-        <div className="   flex-1 font-custom w-full md:w-1/2 space-y-6 justify-end md:ml-36 transform translate-y-24 md:-translate-y-8">
+        <div className="flex-1 font-custom w-full md:w-1/2 space-y-6  justify-end md:ml-36 transform -translate-y-8 md:-translate-y-8">
           <div className='mb-4 animate-fade-up animate-once'>
-            <h1 className="text-6xl font-bold text-[#051B23] mb-2">
-              Your Trusted Payment <span className='   decoration-blue-400 dark:decoration-blue-600'>Solution</span> for<br />  
+            <h1 className="text-3xl md:text-5xl font-bold text-[#051B23] mb-2">
+              Your Trusted Payment   
             </h1>
+            <h1 className='text-3xl md:text-5xl font-bold text-[#051B23]'>Solution for</h1>
            
-            <h1 className=' mt-4 h-16 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text text-5xl text-[#0A86B7]'  ><AnimatedCities/></h1>
+            <h1 className=' mt-4 h-16 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text text-5xl text-[#0A86B7]'  ><AnimatedCities/></h1>
           </div>
           <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
           Secure Transactions, Built on Trust
@@ -100,30 +101,10 @@ export default function Section1() {
       </div>
 
       {/* Slider for Trusted By Companies */}
-      <div className='h-40 p-2 bg-[#ffff]  -mt-60 md:mt-24 mb-8'>
+      <div className='h-40 p-2 bg-[#ffff]  -mt-60 md:mt-16 mb-8'>
         <p className='text-md font-semibold font-sans text-start ml-52 uppercase text-gray-600'>Trusted By</p>
         <div className='h-12 flex justify-center items-center mt-12'>
-          {/* Slider component */}
-          {/* <div className="relative flex overflow-x-hidden">
-            <div className="py-12 animate-marquee whitespace-nowrap flex flex-row gap-8 justify-center items-center">
-              <span className="text-xl mx-4"><img  src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Articulate%202.png" className='h-20 w-72 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/vihang-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/assimulate-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Mobilunity-removebg-preview%20(1)%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/creative_swatch%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Narraoone-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Nextdev-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale  ' alt="" /></span>
-            </div>
-            <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex flex-row justify-center items-center gap-8">
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Articulate%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/vihang-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/assimulate-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Mobilunity-removebg-preview%20(1)%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/creative_swatch%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Narraoone-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-              <span className="text-xl mx-4"><img src="https://trustopay.vercel.app/assets/images/partnered%20agencies/Nextdev-removebg-preview%202.png" className='h-14 w-36 object-contain filter grayscale ' alt="" /></span>
-            </div>
-          </div> */}
+        
           <Marquee>
             
             <div className='flex gap-4 content-center '>

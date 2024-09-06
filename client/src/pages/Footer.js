@@ -91,10 +91,10 @@ export default function Footer() {
     <div className=" border-gray-300 py-4 flex justify-center">
           <p className="text-gray-500">© 2024 Tazapay. All rights reserved.</p>
           <p className="text-gray-500">Privacy Policy | Terms of Service</p>
-        </div>
+    </div>
     {/* </div> */}
   </div>
-</footer>
+      </footer>
 
 
 

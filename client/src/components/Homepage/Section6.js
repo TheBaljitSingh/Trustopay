@@ -28,7 +28,7 @@ export default function Section6() {
       <div>
         {/* Main Section */}
         <div className='h-1/4 flex flex-col justify-center items-center py-12'>
-          <h2 className='font-bold text-3xl text-[#051B23]'>Integration Made Easy for Every Business</h2>
+          <h2 className='font-bold text-3xl  bg-gradient-to-r from-[#703893] to-[#703893]  bg-clip-text text-transparent'>Integration Made Easy for Every Business</h2>
           <p className='font-light w-2/3 text-xl text-center text-gray-600 mt-4'>
             We guarantee a swift and seamless setup, getting you up and running in no time.
           </p>
@@ -37,7 +37,7 @@ export default function Section6() {
         {/* Buttons Section */}
         <div className='flex justify-center space-x-8'>
           <button
-            className={`py-3 px-10 text-sm font-medium transition-all duration-300 ${
+            className={`py-3 px-10 text-xl font-medium transition-all duration-300 ${
               activeSection === 'first' ? ' text-black' : 'text-gray-600'
             }`}
             onClick={() => handleClick('first')}
@@ -45,7 +45,7 @@ export default function Section6() {
             API Integration
           </button>
           <button
-            className={`py-3 px-10 text-sm font-medium transition-all duration-300 ${
+            className={`py-3 px-10 text-xl font-medium transition-all duration-300 ${
               activeSection === 'second' ? ' text-black' : 'text-gray-600'
             }`}
             onClick={() => handleClick('second')}
@@ -64,7 +64,7 @@ export default function Section6() {
               }`}
             >
               {/* First Row */}
-              <div className="flex flex-col md:flex-row items-center bg-[#051B23] text-white rounded-lg shadow-lg">
+              <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#703893] to-[#3f4195] text-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-start justify-center p-8 md:w-1/2 space-y-4">
                   <h3 className="text-2xl font-semibold text-white">White Label & Native Solutions</h3>
                   <h4 className="text-lg text-gray-300">Your Brand, Our Technology</h4>
@@ -72,7 +72,7 @@ export default function Section6() {
                     Experience fully customizable integration that mirrors your brand identity, ensuring a consistent user experience.
                   </p>
                 </div>
-                <div className="flex items-center justify-center bg-[#E6FCEE] ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
+                <div className="flex items-center justify-center bg-gray-100 ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
                   <img
                     className="object-cover h-full max-h-64 rounded-lg"
                     src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6663ed4673761f210afc4174_img_solutions-mobile_1.webp"
@@ -82,14 +82,14 @@ export default function Section6() {
               </div>
 
               {/* Second Row */}
-              <div className="flex flex-col md:flex-row items-center bg-[#051B23] text-white rounded-lg shadow-lg">
+              <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#703893] to-[#3f4195] text-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-start justify-center p-8 md:w-1/2 space-y-4">
                   <h3 className="text-2xl font-semibold text-white">Second Option Details</h3>
                   <p className="text-gray-200">
                     Additional information about the first option, showcasing its benefits and customization potential.
                   </p>
                 </div>
-                <div className="flex items-center justify-center bg-[#E6FCEE] ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
+                <div className="flex items-center justify-center bg-gray-100 ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
                   <img
                     className="object-cover h-full max-h-64 rounded-lg"
                     src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6663ed46883e3c62c8f0a020_img_solutions-mobile_2.webp"
@@ -108,7 +108,7 @@ export default function Section6() {
               }`}
             >
               {/* First Row */}
-              <div className="flex flex-col md:flex-row items-center bg-[#051B23] text-white rounded-lg shadow-lg">
+              <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#703893] to-[#3f4195] text-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-start justify-center p-8 md:w-1/2 space-y-4">
                   <h3 className="text-2xl font-semibold text-white">White Label & Native Solutions</h3>
                   <h4 className="text-lg text-gray-300">Your Brand, Our Technology</h4>
@@ -116,7 +116,7 @@ export default function Section6() {
                     Experience fully customizable integration that mirrors your brand identity, ensuring a consistent user experience.
                   </p>
                 </div>
-                <div className="flex items-center justify-center bg-[#E6FCEE] ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
+                <div className="flex items-center justify-center bg-gray-100 ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
                   <img
                     className="object-cover h-full max-h-64 rounded-lg p-4"
                     src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6663ed8efea70242584aa1e8_img_solutions-payment-link-illust-p-800.webp"
@@ -126,7 +126,7 @@ export default function Section6() {
               </div>
 
               {/* Second Row */}
-              <div className="flex flex-col md:flex-row items-center bg-[#051B23] text-white rounded-lg shadow-lg">
+              <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#703893] to-[#3f4195] text-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-start justify-center p-8 md:w-1/2 space-y-4">
                   <h3 className="text-2xl font-semibold text-white">White Label & Native Solutions</h3>
                   <h4 className="text-lg text-gray-300">Your Brand, Our Technology</h4>
@@ -134,7 +134,7 @@ export default function Section6() {
                     Experience fully customizable integration that mirrors your brand identity, ensuring a consistent user experience.
                   </p>
                 </div>
-                <div className="flex items-center justify-center bg-[#E6FCEE] ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
+                <div className="flex items-center justify-center bg-gray-100 ml-4 rounded-r-lg shadow-lg md:w-1/2 h-full">
                   <img
                     className="object-cover h-full max-h-64 rounded-lg p-4"
                     src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6663ed8e3e3a56e7d3b1fc8c_img_solutions-code-illust-p-800.webp"
@@ -152,7 +152,7 @@ export default function Section6() {
         <div className='flex justify-center items-center mb-12'>
           <button
             type="button"
-            className="py-3 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#051B23] text-white shadow-lg hover:bg-[#032A38] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
+            className="py-3 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#8965e4] text-white shadow-lg hover:bg-[#032A38] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >
             Contact Sales
             <svg

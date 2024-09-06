@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import taskSvg from "../../assets/images/task_svg.svg"
 
 export default function Section5() {
   const [ref1, inView1] = useInView({ triggerOnce: true });
@@ -7,16 +8,16 @@ export default function Section5() {
   const [ref3, inView3] = useInView({ triggerOnce: true });
 
   return (
-    <div className='h-[1400px]'>
-      <div className='h-[800px]'>
-        <div className='h-[400px] bg-[#EDFEF3] flex flex-col justify-center items-center space-y-6'>
+    <div className='h-[1400px] bg-gray-200'>
+      <div className='h-[800px] '>
+        <div className='h-[300px] text-white bg-gradient-to-r from-[#703893] to-[#3f4195] flex flex-col justify-center items-center space-y-6'>
           <h2 className='font-bold text-4xl'>Efficiency in Every Transaction</h2>
           <p className='flex font-normal w-3/4 text-xl text-center'>
           Trustopay offers comprehensive protection for your transactions, ensuring secure payments, fraud prevention, and seamless compliance.
           </p>
         </div>
 
-        <div className='flex flex-col space-y-8 justify-center items-center'>
+        <div className='flex  flex-col space-y-8 justify-center items-center md:mx-36'>
           {/* First Section */}
           <div
             ref={ref1}
@@ -26,7 +27,7 @@ export default function Section5() {
           >
             <div className="flex flex-col items-start md:w-1/2 p-6">
               <img
-                src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e3f1148f07142b07ae0da3_icon-complaince.svg"
+                src={taskSvg}
                 alt="Vector Image"
                 className="w-12 h-12 mb-4"
               />
@@ -58,7 +59,7 @@ export default function Section5() {
           >
             <div className="flex flex-col items-start md:w-1/2 p-6">
               <img
-                src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e3f1148f07142b07ae0da3_icon-complaince.svg"
+                src={taskSvg}
                 alt="Vector Image"
                 className="w-12 h-12 mb-4"
               />
@@ -90,10 +91,12 @@ export default function Section5() {
           >
             <div className="flex flex-col items-start md:w-1/2 p-6">
               <img
-                src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e3f1148f07142b07ae0da3_icon-complaince.svg"
+
+                src={taskSvg}
                 alt="Vector Image"
-                className="w-12 h-12 mb-4"
+                className="w-12 h-12 mb-4 "
               />
+              
               <div className='flex flex-col space-y-4'>
                 <h2 className="text-2xl font-semibold mb-2">Optimized Payment Solutions
                 </h2>
