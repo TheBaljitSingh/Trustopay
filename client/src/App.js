@@ -16,6 +16,7 @@ import Genuine from "./pages/Genuine"
 import B2B from './pages/B2B';
 import B2C from './pages/B2C';
 import B2 from './pages/B2';
+import Error404 from "./pages/Error404.js"
 
 
 
@@ -31,10 +32,9 @@ export default function App() {
       <Route path="/product/b2b" element={<B2B/>} />
       <Route path="/product/b2" element={<B2/>} />
       <Route path="/product/b2c" element={<B2C/>} />
-
-
       <Route path="/footer" element={<Footerr/>} />
       <Route path="/genuine" element={<Genuine/>} />
+      <Route path='/*' element={<Error404.js/>}/>
 
 
 

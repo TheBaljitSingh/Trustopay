@@ -73,9 +73,9 @@ export default function B2() {
         <div className="w-full md:w-1/2  flex justify-end items-center ">
 
         
-          <div className=' rounded-tl-xl animate-fade-up hidden md:block animate-once w-[500px] h-[600px] bg-gradient-to-r from-[#3f4195] to-[#703893]'>
-          </div>
-          <div className=' absolute -translate-x-72 '>
+          {/* <div className=' rounded-tl-xl animate-fade-up hidden md:block animate-once w-[500px] h-[600px] bg-gradient-to-r from-[#3f4195] to-[#703893]'>
+          </div> */}
+          <div className=' animate-fade-right transform -translate-x-12 '>
           <img className=' w-[400px] h-[500px] items-center object-cover rounded-xl' src='https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/66600d60135813c3ae3189a1_img_saas-localpayment-stock-p-500.webp' alt="" />
 
           </div>
