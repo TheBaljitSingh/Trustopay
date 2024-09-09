@@ -35,7 +35,7 @@ export default function Section2() {
             </p>
             <button
               type="button"
-              className={`py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200 bg-white text-[#051B23] shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none ${
+              className={`py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] border-gray-200   focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none ${
                 headerInView ? 'animate-fade-up animate-delay-500' : 'opacity-0'
               }`}
             >
@@ -60,9 +60,9 @@ export default function Section2() {
 
           {/* Content section with flexbox */}
           <div ref={contentRef} className={`mx-4 flex flex-wrap justify-center gap-4 p-8 ${ contentInView ? 'animate-fade-up animate-once animate-ease-in' : 'opacity-0' }`}>
-            <div className='space-y-4'>
+            <div className='gap-4 w-1/2 flex'>
               {/* 1 */}
-            <div className="overflow-hidden h-64 w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div className="overflow-hidden h-80 w-1/2 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-xl font-semibold text-gray-900 mb-3">5+ Partnered Banks</h2>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-center">
@@ -76,13 +76,13 @@ export default function Section2() {
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e78496161087c9f53b9427_img_alipay-scan.svg"
                   alt="QR Code"
-                  className="transform scale-90 hover:scale-100 transition-transform duration-300"
+                  className="transform scale-100"
                 />
               </div>
             </div>
 
             {/* 2 */}
-            <div className="overflow-hidden h-64 w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div className="overflow-hidden h-80 w-1/2 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-xl font-semibold text-gray-900 mb-3">Custom Contracts Creation</h2>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-center">
@@ -96,15 +96,15 @@ export default function Section2() {
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e779404b53d101b9e3e839_Img_credit-cards.svg"
                   alt="QR Code"
-                  className="transform scale-90 hover:scale-100 transition-transform duration-300"
+                  className="transform scale-100 "
                 />
               </div>
             </div>
             </div>
 
-            <div className='space-y-4'>
+            <div className=' gap-4 w-1/2 flex'>
               {/* 3 */}
-            <div className="overflow-hidden h-64 w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div className="overflow-hidden h-80 w-1/2 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-xl font-semibold text-gray-900 mb-3">Milestone-Based Payments</h2>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-center">
@@ -118,13 +118,13 @@ export default function Section2() {
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/663c92eaa6d410f9f25813bc_img_accounts-screen-p-500.webp"
                   alt="Payment Screen"
-                  className="transform scale-90 hover:scale-100 transition-transform duration-300"
+                  className="transform scale-100 "
                 />
               </div>
             </div>
 
             {/* 4 */}
-            <div className="overflow-hidden h-64 w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+            <div className="overflow-hidden h-80 w-1/2 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-xl font-semibold text-gray-900 mb-3">Fast Dispute Resolution</h2>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-center">
@@ -138,7 +138,7 @@ export default function Section2() {
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65f95da782671a4756e76d39_CREATE%20PAYOUTS%20(RESIZED).svg"
                   alt="Dispute Handling"
-                  className="transform scale-90 hover:scale-100 transition-transform duration-300"
+                  className="transform scale-100 "
                 />
               </div>
             </div>

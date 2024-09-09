@@ -12,10 +12,10 @@ export default function Section1() {
         {/* Left Side Content */}
         <div className="flex-1 font-custom w-full md:w-1/2 space-y-6  justify-end md:ml-36 transform -translate-y-8 md:-translate-y-8">
           <div className='mb-4 animate-fade-up animate-once'>
-            <h1 className="text-3xl md:text-5xl font-bold text-[#051B23] mb-2">
+            <h1 className="text-3xl md:text-5xl font-bold text-black mb-2">
               Your Trusted Payment   
             </h1>
-            <h1 className='text-3xl md:text-5xl font-bold text-[#051B23]'>Solution for</h1>
+            <h1 className='text-3xl md:text-5xl font-bold text-black'>Solution for</h1>
            
             <h1 className=' mt-4 h-16 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text text-5xl text-[#0A86B7]'  ><AnimatedCities/></h1>
           </div>
@@ -25,13 +25,13 @@ export default function Section1() {
           <div className='space-y-6 animate-fade-up animate-once animate-delay-[500ms]'>
 
           
-          <p className='font-normal font-sans text-xl text-[#051B23]'>Empower your business with Trustopay, the secure peer-to-peer payment platform.</p>
-          <p className='font-normal font-sans text-xl text-[#051B23] '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
+          <p className='font-normal font-sans text-xl text-black'>Empower your business with Trustopay, the secure peer-to-peer payment platform.</p>
+          <p className='font-normal font-sans text-xl text-black '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
           </div>
           <div className='flex justify-start items-center'>
             <button
               type="button"
-              className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200 bg-[#051B23] text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
+              className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-gradient-to-r from-[#703893] to-[#3f4195]  border-gray-200  text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >
               Get Started
               <svg

@@ -57,7 +57,7 @@ export default function Genuine() {
       <Header />
 
       <header className="sticky top-0 z-10 flex h-16 w-full items-center justify-center bg-[hsl(var(--background))] px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl text-indigo-600">Genui<span className="text-green-400">ne</span> </h1>
+        <h1 className="text-4xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text ">Genuine </h1>
       </header>
 
       <main className="flex-1 px-4 py-8 sm:px-6 lg:px-8">

@@ -36,7 +36,7 @@ export default function Section3() {
   ref={headingRef}
   className={`row-span-1 text-wrap flex justify-start items-start ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
 >
-  <h2 className="font-bold text-6xl text-[#0B3747] flex items-start justify-center leading-tight">
+  <h2 className="font-bold text-6xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight">
     Empowering Safe Payments for All
   </h2>
 </div>
@@ -91,7 +91,7 @@ export default function Section3() {
       </div>
 
       <div className='flex justify-center items-center '>
-        <button type="button" className="bg-gradient-to-b from-[#a097f3] to-[#a097f3] py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200 text-white shadow-sm hover:bg-[#a097f3] focus:outline-none focus:bg-[#a097f3] disabled:opacity-50 disabled:pointer-events-none">
+        <button type="button" className="bg-[#703893] text-white shadow-lg hover:bg-[#8965e4] py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200  focus:outline-none focus:bg-[#a097f3] disabled:opacity-50 disabled:pointer-events-none">
           Learn More
           <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>

@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
        
       </div>
-      <div className=" border-t-2 ">
+      <div className=" border-t-2  ">
       
 
       <footer className="bg-gray-100">

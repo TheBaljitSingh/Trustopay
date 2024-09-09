@@ -8,7 +8,7 @@ export default function Section5() {
   const [ref3, inView3] = useInView({ triggerOnce: true });
 
   return (
-    <div className='h-[1400px] bg-gray-200'>
+    <div className='h-[1400px] '  >
       <div className='h-[800px] '>
         <div className='h-[300px] text-white bg-gradient-to-r from-[#703893] to-[#3f4195] flex flex-col justify-center items-center space-y-6'>
           <h2 className='font-bold text-4xl'>Efficiency in Every Transaction</h2>
@@ -116,14 +116,14 @@ export default function Section5() {
           </div>
         </div>
 
-        <div className='flex justify-center items-center mb-8'>
-          <button
+        <div className='flex justify-center items-center mb-8' >
+        <button
             type="button"
-            className="py-3 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200 bg-[#051B23] text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
+            className="py-3 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >
-            Contact Sales
+            Learn More
             <svg
-              className="shrink-0 size-4"
+              className="shrink-0 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -132,8 +132,8 @@ export default function Section5() {
               stroke="currentColor"
               strokeWidth="2"
               strokeLinecap="round"
-              strokeLinejoin="round"
-            >
+              strokeLinejoin
+              >
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>
             </svg>

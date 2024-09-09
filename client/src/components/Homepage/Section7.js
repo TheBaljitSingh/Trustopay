@@ -109,7 +109,7 @@ export default function Section7() {
     // </div>
     <section className="bg-gradient-to-b from-[#703893] to-[#3f4195] py-16 text-white hover:cursor-default">
       <div className="container  text-center ">
-          <h2 className="text-4xl font-bold mb-12  flex mx-24 items-start ">
+          <h2 className="text-4xl font-bold mb-12 md:ml-28 flex mx-24 items-start ">
             Your Money Matters. Let Us Safeguard it For You.
           </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-24">

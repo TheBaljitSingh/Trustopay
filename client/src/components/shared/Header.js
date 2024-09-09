@@ -68,10 +68,10 @@ function Header() {
         </div>
 
         <div className="flex md:flex md:space-x-4">
-          <button className="hidden md:block border bg-indigo-600 text-white  border-indigo-600  hover:bg-indigo-600 hover:text-white py-2 px-4 rounded">
+          <button className="hidden md:block border bg-gradient-to-r from-[#703893] to-[#3f4195]   text-white  border-indigo-600  hover:bg-indigo-600 hover:text-white py-2 px-4 rounded">
             Notify me
           </button>
-            <button className="w-full md:w-28 bg-indigo-600 inline-block text-white hover:bg-indigo-700 py-2 px-4 rounded">
+            <button className="w-full md:w-28 bg-gradient-to-r from-[#703893] to-[#3f4195]   inline-block text-white hover:bg-indigo-700 py-2 px-4 rounded">
               Contact Us
             </button>
            
