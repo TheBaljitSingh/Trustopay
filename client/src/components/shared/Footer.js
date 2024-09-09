@@ -8,14 +8,11 @@ function Footer() {
     <footer className="border-t-2 max-w-full ">
       <div className="bg-gray-100 ">
         <div className="mx-auto w-full p-4 py-6 lg:py-8 ">
-          <div className='flex justify-center'>
-          <h2 className='text-2xl font-custom' >We Protech your money</h2>
+         
 
-          </div>
+        {/* <hr className="my-4 h-1 w-full border-gray-400 rounded md:my-10 sm:mx-auto lg:my-8" /> */}
 
-        <hr className="my-4 h-1 w-full border-gray-400 rounded md:my-10 sm:mx-auto lg:my-8" />
-
-          <div className="grid grid-cols-2  md:grid-cols-5 gap-8 mx-36">
+          <div className="grid grid-cols-2  md:grid-cols-5 gap-8 mx-48">
             <div className="col-span-2 md:col-span-1">
               <a href="/#" className="flex items-center">
                 <img src={logo} className="h-8 mb-4" alt="Trustopay Logo" />
@@ -62,7 +59,7 @@ function Footer() {
           <hr className="my-4 h-1 w-full border-gray-400 rounded md:my-10 sm:mx-auto lg:my-8" />
 
 
-          <div className="flex justify-between items-center mx-36">
+          <div className="flex justify-between items-center mx-48">
             <span className="text-sm text-gray-500">
               © 2024 <a href="https://trustopay.com/" className="hover:underline">Trustopay</a>. All Rights Reserved.
             </span>
@@ -77,8 +74,8 @@ function Footer() {
           </div>
 
           {/* Additional Footer Bottom Section */}
-          <div className="mt-4 text-sm text-gray-500 text-center mx-36">
-            Tazapay Pte. Ltd. (UEN: 202010604W) is licensed by the Monetary Authority of Singapore (MAS) as a Major Payment Institution (Licence No. PS20200638), authorizing a broad range of payment services including cross-border transactions. <a href="#" className="text-blue-500 hover:underline">Licence details.</a>
+          <div className="mt-4 text-sm text-gray-500 text-center mx-48">
+            Trustopay Innovation Ltd. is licensed by the Monetary Authority of Singapore (MAS) as a Major Payment Institution (Licence No. PS20200638), authorizing a broad range of payment services including cross-border transactions. <a href="#" className="text-blue-500 hover:underline">Licence details.</a>
           </div>
         </div>
       </div>

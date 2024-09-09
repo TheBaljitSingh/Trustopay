@@ -142,6 +142,12 @@ export default function Section7() {
           </div>
         </div>
       </div>
+      <div>
+      <div className='flex justify-center mt-12 bg-white'>
+          <h2 className='text-2xl font-custom bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text' >We Protect your money</h2>
+
+          </div>
+      </div>
     </section>
 
 

@@ -27,7 +27,7 @@ export default function Section6() {
     <div className='bg-white font-custom h-auto min-h-screen flex flex-col justify-between'>
       <div>
         {/* Main Section */}
-        <div className='h-1/4 flex flex-col justify-center items-center py-12'>
+        <div className='h-1/4 flex flex-col justify-center items-center '>
           <h2 className='font-bold text-3xl  bg-gradient-to-r from-[#703893] to-[#703893]  bg-clip-text text-transparent'>Integration Made Easy for Every Business</h2>
           <p className='font-light w-2/3 text-xl text-center text-gray-600 mt-4'>
             We guarantee a swift and seamless setup, getting you up and running in no time.

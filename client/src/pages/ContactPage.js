@@ -8,7 +8,7 @@ export default function ContactPage() {
     <div>
       <Header />
       <div className='flex flex-col justify-center items-center text-center mt-10'>
-        <h2 className='text-3xl font-bold text-gray-800 underline-offset-4 underline decoration-[#9747ffcd]'>Contact Us</h2>
+        <h2 className='text-3xl font-bold bg-gradient-to-r from-[#703893] to-[#703893] text-transparent bg-clip-text underline-offset-4  underline decoration-[#9747ffcd]'>Contact Us</h2>
         <p className='text-gray-600 mt-2'>Have a technical issue? Want to send feedback about a feature? Let us know!</p>
       </div>
       <div className='w-3/4 mx-auto mt-10 flex flex-col lg:flex-row items-center h-auto'>

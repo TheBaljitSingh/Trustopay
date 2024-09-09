@@ -25,8 +25,8 @@ export default function AboutPage() {
         <div className="pt-16 pb-40 sm:pt-24 sm:pb-32 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
-                About <span className='text-[#9747ffcd]'>Trustopay</span>
+              <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text sm:text-6xl">
+                About Trustopay
               </h1>
               <p className="mt-4 text-lg text-gray-400">
                 Our vision is to build a brand that could Illuminate Transactions and Eradicate Frauds
@@ -88,7 +88,7 @@ export default function AboutPage() {
 
             {/* Text Section */}
             <div className='sm:max-w-lg lg:w-1/2 lg:pl-10'>
-              <h1 className='text-4xl font-bold tracking-tight text-black sm:text-6xl'><span className='text-[#9747ffcd]'>Trustopay</span> Story</h1>
+              <h1 className='text-4xl font-bold tracking-tight bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text sm:text-6xl'>Trustopay Story</h1>
               <p className='mt-4 text-lg font-semibold text-gray-700'>
                 A company people love to work for
               </p>
