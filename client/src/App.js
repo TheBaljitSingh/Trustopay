@@ -13,6 +13,9 @@ import Section6 from './components/Homepage/Section6';
 import Section7 from './components/Homepage/Section7';
 import Footerr from './pages/Footer';
 import Genuine from "./pages/Genuine"
+import B2B from './pages/B2B';
+import B2C from './pages/B2C';
+import B2 from './pages/B2';
 
 
 
@@ -25,12 +28,11 @@ export default function App() {
       <Route path="/" element={<HomePage/>} />
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="/contact" element={<ContactPage />} />
-      <Route path="/section2" element={<Sesction2 />} />
-      <Route path="/section3" element={<Sesction3 />} />
-      <Route path="/section4" element={<Sesction4 />} />
-      <Route path="/section5" element={<Section5/>} />
-      <Route path="/section6" element={<Section6/>} />
-      <Route path="/section7" element={<Section7/>} />
+      <Route path="/product/b2b" element={<B2B/>} />
+      <Route path="/product/b2" element={<B2/>} />
+      <Route path="/product/b2c" element={<B2C/>} />
+
+
       <Route path="/footer" element={<Footerr/>} />
       <Route path="/genuine" element={<Genuine/>} />
 
