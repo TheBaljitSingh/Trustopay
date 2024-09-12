@@ -5,7 +5,6 @@ import { IoIosArrowUp } from "react-icons/io";
 const FaqComponent = () => {
 
   const data = {
-    title: "Frequently Asked Questions",
     rows: [
       {
         title: "Do you have a fee for integration support?",
@@ -28,9 +27,9 @@ const FaqComponent = () => {
 
   const styles = {
     bgColor: 'white',
-    titleTextColor: "#0f3c53",
-    rowTitleColor: "#0f3c53",
-    rowContentColor: "#6c757d",
+    titleTextColor: "#703893",
+    rowTitleColor: "#000000",
+    rowContentColor: "#3f4195",
     arrowColor: "#0f3c53",
     rowTitleTextSize: '18px',
     rowContentTextSize: '16px',
@@ -40,14 +39,14 @@ const FaqComponent = () => {
   const config = {
     animate: true,
     arrowIcon: <IoIosArrowUp />,
-    openOnStart: 0
+    openOnStart: 0,
   };
 
   return (
     <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-full overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-start lg:space-x-12 md:mx-36">
-        <div className="lg:w-1/3 mb-8 lg:mb-0 flex flex-col">
-          <h2 className="text-[#000000] hidden md:flex text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div className="flex flex-col lg:flex-row items-start lg:space-x-12 md:mx-36 ">
+        <div className="lg:w-1/3 mb-8 lg:mb-0 flex flex-col-reverse md:flex-col gap-y-8 md:gap-y-0">
+          <h2 className="text-[#000000] flex text-3xl font-bold mb-4 ">Frequently Asked Questions</h2>
           <div className='flex justify-center lg:justify-start'>
             <button
               type="button"
@@ -71,7 +70,7 @@ const FaqComponent = () => {
           </div>
         </div>
 
-        <div className="lg:w-2/3">
+        <div className="lg:w-2/3  ">
           <Faq styles={styles} config={config} data={data} />
         </div>
       </div>

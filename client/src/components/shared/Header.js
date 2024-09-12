@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { IoMenu, IoClose } from "react-icons/io5"; // Import close icon
+import { BiSolidLeftArrowCircle } from "react-icons/bi";
+
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
@@ -80,21 +82,34 @@ function Header() {
       </nav>
 
       {/* Mobile menu with sliding animation */}
-      <div className={`fixed top-0 left-0 w-64 h-full bg-white shadow-lg transition-transform transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}>
-        <div className="flex justify-between items-center p-4">
-          <h2 className="text-xl font-bold">Menu</h2>
-          <IoClose className="text-2xl cursor-pointer" onClick={() => setMobileMenuOpen(false)} /> {/* Close button */}
+      <div className={`fixed top-0 left-0 w-64 h-full text-white bg-gradient-to-r from-[#703893] to-[#3f4195] shadow-lg transition-transform transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:hidden`}>
+        {/* Header Section with Logo and Close Button */}
+        <div className="flex flex-col justify-center bg-white h-24 p-4 shadow-md">
+          
+          {/* Logo */}
+           <div className="flex justify-end items-end">
+            {/* Close Button */}
+            <IoClose  className="text-[#703893] cursor-pointer" size={25} onClick={() => setMobileMenuOpen(false)} />
+          </div>
+          <div className="flex justify-center items-center mt-2">
+            <img src="https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png" alt="Logo" className="h-10 w-auto" />
+          </div>
+         
         </div>
-        <ul className="p-4 space-y-4">
-          <li><Link className="block py-2 text-lg text-gray-700" to="/">Home</Link></li>
-          <li><a onClick={() => handleDropdownClick('/genuine')} className="block py-2 text-lg text-gray-700">Genuine</a></li>
-          <li><a onClick={() => handleDropdownClick('product/b2')} className="block py-2 text-lg text-gray-700">B2</a></li>
-          <li><a onClick={() => handleDropdownClick('product/b2b')} className="block py-2 text-lg text-gray-700">B2B2</a></li>
-          <li><a onClick={() => handleDropdownClick('product/b2c')} className="block py-2 text-lg text-gray-700">B2C</a></li>
-          <li><Link className="block py-2 text-lg text-gray-700" to="/about">About</Link></li>
-          <li><Link className="block py-2 text-lg text-gray-700" to="/contact">Contact</Link></li>
+
+        {/* Navigation Menu */}
+        <ul className="flex flex-col p-4 space-y-4 mt-6">
+          <li><Link className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition" to="/">Home</Link></li>
+          <li><a onClick={() => handleDropdownClick('/genuine')} className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition">Genuine</a></li>
+          <li><a onClick={() => handleDropdownClick('product/b2')} className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition">B2</a></li>
+          <li><a onClick={() => handleDropdownClick('product/b2b')} className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition">B2B</a></li>
+          <li><a onClick={() => handleDropdownClick('product/b2c')} className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition">B2C</a></li>
+          <li><Link className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition" to="/about">About</Link></li>
+          <li><Link className="block py-2 pl-6 text-lg font-semibold hover:text-gray-200 transition" to="/contact">Contact</Link></li>
         </ul>
       </div>
+
+
     </header>
   );
 }

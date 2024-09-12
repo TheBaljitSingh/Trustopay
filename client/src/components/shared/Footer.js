@@ -9,9 +9,9 @@ function Footer() {
   <div className="bg-gray-100 md:pt-24 ">
     <div className="mx-auto w-full p-4 py-6  lg:py-8 md:pt-8">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mx-auto md:mx-36">
-        <div className="col-span-2 md:col-span-1 text-center md:text-left">
+        <div className="col-span-2 md:col-span-1 md:text-left  flex flex-col ">
           <a href="/#" className="flex items-center justify-center md:justify-start mb-4">
-            <img src={logo} className="h-8" alt="Trustopay Logo" />
+            <img src={logo} className="h-10" alt="Trustopay Logo" />
           </a>
           <p className="text-gray-800 text-center md:text-left">
             Your Shield for Secure Online Transactions.
@@ -56,8 +56,8 @@ function Footer() {
 
       <hr className="my-4 h-1 w-full border-gray-400 rounded md:my-8 sm:mx-auto" />
 
-      <div className="flex flex-col md:flex-row justify-between items-center mx-auto md:mx-36 text-center md:text-left ">
-        <span className="text-sm text-gray-500">
+      <div className="flex flex-col md:flex-row justify-start items-start md:justify-between md:items-center mx-auto md:mx-36 text-center md:text-left ">
+        <span className="text-sm  text-gray-500">
           © 2024 <a href="https://trustopay.com/" className="hover:underline">Trustopay</a>. All Rights Reserved.
         </span>
         <div className="flex space-x-6 mt-4 md:mt-0 justify-center md:justify-start">
@@ -70,7 +70,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="mt-4 text-sm text-gray-500 text-center mx-auto md:mx-32">
+      <div className="mt-4 text-sm text-gray-500 md:text-center text-left  mx-auto md:mx-32">
         Trustopay Innovation Ltd. is licensed by the Monetary Authority of Singapore (MAS) as a Major Payment Institution (Licence No. PS20200638), authorizing a broad range of payment services including cross-border transactions. <a href="#" className="text-blue-500 hover:underline">Licence details.</a>
       </div>
     </div>
