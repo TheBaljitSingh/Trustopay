@@ -32,7 +32,7 @@ function Header() {
   };
 
   return (
-    <header className={showHeader ? "w-full bg-white sticky left-0 top-0 z-50 py-4 transition duration-100 shadow-sm" : "bg-white shadow-md sticky left-0 top-0 z-50 w-full py-4 transition duration-100"}>
+    <header className={showHeader ? "w-full bg-white sticky left-0 top-0 z-50 py-4 transition duration-100 shadow-md" : "bg-white shadow-md sticky left-0 top-0 z-50 w-full py-4 transition duration-100"}>
       <nav className="container mx-auto flex justify-between px-2 md:px-14 gap-4">
         {/* Mobile menu icon */}
         <div className='flex md:hidden items-center'>

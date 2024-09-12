@@ -63,23 +63,25 @@ import React from 'react';
 
 export default function Section4() {
   return (
-    <div className="bg-[#F2F2F2] h-auto">
+    <div className="bg-[#F2F2F2] h-auto  max-w-full overflow-hidden">
       <div className="text-center">
-        <div className="flex flex-col mt-12 px-4 py-8">
+        <div className="flex flex-col text-left md:text-center mt-12 px-4 py-8">
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-[#703893] to-[#3f4195] bg-clip-text text-transparent animate-fade-up animate-once animate-ease-in">
             Custom-Fit for Every Sector
           </h2>
+          <div className=' space-y-2 mt-2 md:space-y-0 '>
           <p className="text-2xl mb-2 text-black animate-fade-up animate-once animate-ease-in">
             Trustopay bridges payment gaps across industries from fintech to second-hand goods.
           </p>
           <p className="text-2xl text-black animate-fade-up animate-once animate-ease-in">
             Our solutions address your unique industry needs, delivering secure and seamless transactions.
           </p>
+          </div>
         </div>
       </div>
 
       <div className="mx-auto flex justify-center gap-24 items-center flex-wrap mt-12">
-        <div className="grid grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Fintech */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-105 hover:bg-opacity-75">
             <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/664c18ee5ec4dc64f5867d95_travel-hero-image-p-800.webp)` }} />

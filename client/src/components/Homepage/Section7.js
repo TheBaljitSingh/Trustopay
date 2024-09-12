@@ -107,48 +107,50 @@ export default function Section7() {
 
 
     // </div>
-    <section className="bg-gradient-to-b from-[#703893] to-[#3f4195] py-16 text-white hover:cursor-default">
-      <div className="container  text-center ">
-          <h2 className="text-4xl font-bold mb-12 md:ml-28 flex mx-24 items-start ">
-            Your Money Matters. Let Us Safeguard it For You.
-          </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-24">
-          <div className="p-4 flex flex-col items-start">
-            <h3 className="text-xl text-start font-semibold mb-4">
-              Robust Dispute <br /> Resolution
-            </h3>
-            <div className="w-10 h-1 gradie  bg-gradient-to-r from-[#dfda46] to-[#dddef0] mb-4"></div>
-            <p className='text-start'>
-              If you’re not happy with your purchase, we’ll withhold your seller’s funds and mediate disagreements until all issues are resolved.
-            </p>
-          </div>
-          <div className="p-4 flex flex-col items-start">
-            <h3 className="text-xl text-start font-semibold mb-4">
-              100% of Your Money Back - No Strings Attached
-            </h3>
-            <div className="w-10 h-1 bg-gradient-to-r from-[#dfda46] to-[#dddef0] mb-4 "></div>
-            <p className='text-start'>
-              We’ll make sure you get the amount refunded for, including any platform fees from Tazapay.
-            </p>
-          </div>
-          <div className="p-4 flex flex-col items-start">
-            <h3 className="text-xl  font-semibold mb-4 text-left">
-              60-day Coverage for <br /> Unauthorized Transactions
-            </h3>
-            <div className="w-10 h-1 bg-gradient-to-r from-[#dfda46] to-[#dddef0]  mb-4 "></div>
-            <p className='text-left'>
-              Noticed a transaction you didn’t make? You have all the time you need to raise any unauthorized transaction dispute with us.
-            </p>
-          </div>
+    <section className="bg-gradient-to-b from-[#703893] to-[#3f4195] py-8 text-white hover:cursor-default max-w-full overflow-hidden">
+    <div className="container text-center px-4">
+      <h2 className="text-2xl md:text-4xl font-bold mb-8 md:ml-28 flex justify-center md:justify-start mx-auto md:mx-24">
+        Your Money Matters. Let Us Safeguard it For You.
+      </h2>
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:mx-24">
+        <div className="p-4 flex flex-col items-start">
+          <h3 className="flex md:text-xl font-semibold mb-4 text-start">
+            Robust Dispute Resolution
+          </h3>
+          <h3 className=" hidden md:text-xl font-semibold mb-4 text-start">
+          Robust Dispute <br /> Resolution
+
+          </h3>
+          <div className="w-10 h-1 bg-gradient-to-r from-[#dfda46] to-[#dddef0] mb-4"></div>
+          <p className='text-start'>
+            If you’re not happy with your purchase, we’ll withhold your seller’s funds and mediate disagreements until all issues are resolved.
+          </p>
+        </div>
+        <div className="p-4 flex flex-col items-start">
+          <h3 className=" md:text-xl font-semibold mb-4 text-start">
+            100% of Your Money Back - No Strings Attached
+          </h3>
+          <div className="w-10 h-1 bg-gradient-to-r from-[#dfda46] to-[#dddef0] mb-4"></div>
+          <p className='text-start'>
+            We’ll make sure you get the amount refunded for, including any platform fees from Tazapay.
+          </p>
+        </div>
+        <div className="p-4 flex flex-col items-start">
+          <h3 className="flex md:text-xl font-semibold mb-4 text-start">
+            60-day Coverage for  Unauthorized Transactions
+          </h3>
+          <h3 className="hidden md:text-xl font-semibold mb-4 text-start">
+            60-day Coverage for <br /> Unauthorized Transactions
+          </h3>
+          <div className="w-10 h-1 bg-gradient-to-r from-[#dfda46] to-[#dddef0] mb-4"></div>
+          <p className='text-start'>
+            Noticed a transaction you didn’t make? You have all the time you need to raise any unauthorized transaction dispute with us.
+          </p>
         </div>
       </div>
-      <div>
-      <div className='flex justify-center mt-12 bg-white'>
-          <h2 className='text-2xl font-custom bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text' >We Protect your money</h2>
-
-          </div>
-      </div>
-    </section>
+    </div>
+  </section>
+  
 
 
 

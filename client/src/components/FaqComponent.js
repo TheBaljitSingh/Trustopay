@@ -1,0 +1,82 @@
+import React from 'react';
+import Faq from 'react-faq-component';
+import { IoIosArrowUp } from "react-icons/io";
+
+const FaqComponent = () => {
+
+  const data = {
+    title: "Frequently Asked Questions",
+    rows: [
+      {
+        title: "Do you have a fee for integration support?",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        title: "Are there any fees associated with canceling your service or closing my account?",
+        content: "Phasellus bibendum ipsum at viverra egestas."
+      },
+      {
+        title: "When will I receive my settlements?",
+        content: "Donec tempor tellus sed cursus finibus."
+      },
+      {
+        title: "What are the payout options for receiving my payments?",
+        content: "Pellentesque habitant morbi tristique senectus et netus et malesuada."
+      }
+    ]
+  };
+
+  const styles = {
+    bgColor: 'white',
+    titleTextColor: "#0f3c53",
+    rowTitleColor: "#0f3c53",
+    rowContentColor: "#6c757d",
+    arrowColor: "#0f3c53",
+    rowTitleTextSize: '18px',
+    rowContentTextSize: '16px',
+    titleTextSize: '24px'
+  };
+
+  const config = {
+    animate: true,
+    arrowIcon: <IoIosArrowUp />,
+    openOnStart: 0
+  };
+
+  return (
+    <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-full overflow-hidden">
+      <div className="flex flex-col lg:flex-row items-start lg:space-x-12 md:mx-36">
+        <div className="lg:w-1/3 mb-8 lg:mb-0 flex flex-col">
+          <h2 className="text-[#000000] hidden md:flex text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+          <div className='flex justify-center lg:justify-start'>
+            <button
+              type="button"
+              className="py-3 px-4 flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8965e4] transition"
+            >
+              Book a Demo
+              <svg
+                className="w-6 h-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div className="lg:w-2/3">
+          <Faq styles={styles} config={config} data={data} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FaqComponent;

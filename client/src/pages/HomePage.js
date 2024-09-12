@@ -11,6 +11,7 @@ import Section5 from "../components/Homepage/Section5"
 import Section6 from "../components/Homepage/Section6"
 import Section7 from "../components/Homepage/Section7"
 import ContactPopup from '../utils/ContactPopup'
+import FaqComponent from "../components/FaqComponent"
 
 
 export default function HomePage() {
@@ -28,6 +29,7 @@ export default function HomePage() {
     <Section5/>
     <Section6/>
     <Section7/>
+    <FaqComponent/>
 
     <Footer/>
 
@@ -39,26 +41,7 @@ export default function HomePage() {
 
 
 
-  // const data = {
-  //   title: "FAQ (Frequently Asked Questions)",
-  //   rows: [
-  //     {
-  //       title: "how to use trustopay application ?",
-  //       content: "Lorem ipsum dolor sit amet, consectetur "
-  //     },
-  //     {
-  //       title: "Why should i use trustopay application ?",
-  //       content: "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam."
-  //     },
-  //     {
-  //       title: "how to use trustopay application ?",
-  //       content: "Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc"
-  //     },
-  //     {
-  //       title: "how to use trustopay application ?",
-  //       content: "v1.0.5 download from playstore"
-  //     }]
-  // }
+  
   
   // const { ref: cardRef1, inView: inView1 } = useInView({ triggerOnce: false });
   // const { ref: cardRef2, inView: inView2 } = useInView({ triggerOnce: false});

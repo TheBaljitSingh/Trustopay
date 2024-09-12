@@ -9,11 +9,11 @@ export default function Section5() {
   const [ref3, inView3] = useInView({ triggerOnce: true });
 
   return (
-    <div className='h-[1400px]'>
-      <div className="h-[800px]">
-        <div className='h-[300px] text-white bg-gradient-to-r from-[#703893] to-[#3f4195] flex flex-col justify-center items-center space-y-6'>
-          <h2 className='font-bold text-4xl'>Efficiency in Every Transaction</h2>
-          <p className='flex font-normal w-3/4 text-xl text-center'>
+    <div className=' md:h-[1400px]  max-w-full overflow-hidden'>
+      <div className=" h-[1930px] md:h-[800px]">
+        <div className=' h-[360px] md:h-[300px] pt-8 md:pt-0 text-white bg-gradient-to-r from-[#703893] to-[#3f4195] flex flex-col justify-start md:justify-center items-center space-y-6'>
+          <h2 className='font-bold text-4xl ml-8'>Efficiency in Every Transaction</h2>
+          <p className='flex font-normal w-3/4 text-xl text-center '>
             Trustopay offers comprehensive protection for your transactions, ensuring secure payments, fraud prevention, and seamless compliance.
           </p>
         </div>
@@ -28,18 +28,19 @@ export default function Section5() {
         >
           <div className='relative flex flex-col space-y-8 justify-center items-center md:mx-36'>
             {/* First Section */}
-          <div
+            <div
             ref={ref1}
-            className={`relative w-3/4 flex flex-col md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView1 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }} // Ensures that the content stays on top
           >
+            {/* Text will appear on top for mobile, left for larger screens */}
             <div className="flex flex-col items-start md:w-1/2 p-6">
               <img
                 src={taskSvg}
                 alt="Vector Image"
-                className="w-12 h-12 mb-4"
+                className="w-12 h-12 mb-4 hidden md:block"
               />
               <div className='flex flex-col space-y-4'>
                 <h2 className="text-2xl font-semibold mb-2">Streamlined Local Compliance</h2>
@@ -48,7 +49,9 @@ export default function Section5() {
                 </p>
               </div>
             </div>
-            <div className="md:w-1/2 mt-4 md:mt-0">
+
+            {/* Image will appear below the text for mobile, right for larger screens */}
+            <div className="md:w-1/2 mb-4 md:mb-0">
               <img
                 src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e3f46e69c02bd90f4d9c55_illustration__global-compliance-simplified.svg"
                 alt="Right Side Image"
@@ -57,10 +60,11 @@ export default function Section5() {
             </div>
           </div>
 
+
           {/* Second Section */}
           <div
             ref={ref2}
-            className={`relative w-3/4 flex flex-col md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView2 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }}
@@ -69,7 +73,7 @@ export default function Section5() {
               <img
                 src={taskSvg}
                 alt="Vector Image"
-                className="w-12 h-12 mb-4"
+                className="w-12 h-12 mb-4 hidden md:block"
               />
               <div className='flex flex-col space-y-4'>
                 <h2 className="text-2xl font-semibold mb-2">Advanced Risk Management</h2>
@@ -90,7 +94,7 @@ export default function Section5() {
           {/* Third Section */}
           <div
             ref={ref3}
-            className={`relative w-3/4 flex flex-col md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-3/4  flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView3 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }}
@@ -99,10 +103,10 @@ export default function Section5() {
               <img
                 src={taskSvg}
                 alt="Vector Image"
-                className="w-12 h-12 mb-4"
+                className="w-12 h-12 mb-4 hidden md:block"
               />
               <div className='flex flex-col space-y-4'>
-                <h2 className="text-2xl font-semibold mb-2">Optimized Payment Solutions</h2>
+                <h2 className="text-2xl font-semibold mb-2  ">Optimized Payment Solutions</h2>
                 <p className="text-gray-600">
                   Benefit from efficient payment processes and competitive rates with Trustopay, enhancing your financial performance and operational efficiency.
                 </p>

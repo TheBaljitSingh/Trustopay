@@ -28,35 +28,34 @@ export default function Section3() {
   });
 
   return (
-    <div className="h-auto mx-24">
-      <div className=' bg-white grid grid-rows-3 grid-flow-col gap-8 p-12 md:ml-16  '>
+    <div className="h-auto  md:mx-24 mb-8  max-w-full overflow-hidden ">
+      <div className=' bg-white grid grid-rows-1 md:grid-rows-3 justify-center md:grid-flow-col gap-8 p-8 md:ml-16 '>
 
         {/* <!-- Section 1: Heading --> */}
-        <div
-  ref={headingRef}
-  className={`row-span-1 text-wrap flex justify-start items-start ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
->
-  <h2 className="font-bold text-6xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight">
-    Empowering Safe Payments for All
-  </h2>
-</div>
+        <div ref={headingRef}
+          className={`w-full  md:row-span-1 text-wrap flex justify-start items-start ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
+        >
+        <h2 className="font-bold text-6xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight">
+          Empowering Safe Payments for All
+        </h2>
+      </div>
 
 
         {/* <!-- Section 2: Image --> */}
         <div
           ref={imageRef}
-          className={`bg-gray-100 w-4/3 h-4/3 h-full row-span-2 flex justify-center items-center rounded-lg shadow-md overflow-hidden ${imageInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
+          className={`md:bg-gray-100  md:w-4/3 md:h-4/3 w-4/3 md:p-0  p-0 row-span-1 col-span-2  md:row-span-2  md:col-span-1  rounded-lg shadow-none md:shadow-md overflow-hidden ${imageInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
-          <img className='rounded-xl object-cover w-auto h-full' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e55700997d6605ae8ce398_img_Empowering%20Your%20Global%20Ambitions-p-1080.webp" alt="Empowering Your Global Ambitions" />
+          <img className='rounded-xl object-cover h-full w-full ' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e55700997d6605ae8ce398_img_Empowering%20Your%20Global%20Ambitions-p-1080.webp" alt="Empowering Your Global Ambitions" />
         </div>
 
         {/* <!-- Section 3: Statistics/Marketing Info 1 --> */}
         <div
           ref={statsRef}
-          className={`bg-[#f1f1f1]  row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-5/6 ${statsInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
+          className={`bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-4/3 md:w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
-          <div className='flex flex-col  justify-center items-start space-y-4'>
-            <h3 className='text-4xl font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>100% </h3>
+          <div className='flex flex-col justify-center items-start space-y-4'>
+          <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>100% </h3>
             <p className='text-2xl font-bold  bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Transaction Security</p>
             <p className='text-start text-black font-semibold w-full'>Ensuring every payment is protected with advanced encryption and escrow services.
             </p>
@@ -66,7 +65,7 @@ export default function Section3() {
         {/* <!-- Section 4: Additional Info 1 --> */}
         <div
           ref={info1Ref}
-          className={`bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
+          className={`bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-4/3  md:w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start space-y-4'>
             <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>15 Lacs+ 
@@ -80,7 +79,7 @@ export default function Section3() {
         {/* <!-- Section 5: Additional Info 2 --> */}
         <div
           ref={info2Ref}
-          className={` bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747]  w-5/6 ${info2InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
+          className={` bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747]  w-4/3  md:w-5/6  ${info2InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start space-y-4'>
             <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>+80%</h3>
