@@ -61,6 +61,7 @@ function Header() {
                   <li><a onClick={() => handleDropdownClick('/product/b2')} className="block px-4 py-2 hover:bg-gray-200 cursor-pointer">B2</a></li>
                   <li><a onClick={() => handleDropdownClick('/product/b2b')} className="block px-4 py-2 hover:bg-gray-200 cursor-pointer">B2B2</a></li>
                   <li><a onClick={() => handleDropdownClick('/product/b2c')} className="block px-4 py-2 hover:bg-gray-200 cursor-pointer">B2C</a></li>
+                  <li><a onClick={() => handleDropdownClick('/product/escrow')} className="block px-4 py-2 hover:bg-gray-200 cursor-pointer">Escrew</a></li>
                 </ul>
               </div>
             )}
