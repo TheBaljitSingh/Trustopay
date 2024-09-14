@@ -30,13 +30,13 @@ export default function Section5() {
             {/* First Section */}
             <div
             ref={ref1}
-            className={`relative w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-5/6 md:w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView1 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }} // Ensures that the content stays on top
           >
             {/* Text will appear on top for mobile, left for larger screens */}
-            <div className="flex flex-col items-start md:w-1/2 p-6">
+            <div className="flex flex-col items-start md:w-1/2 p-2">
               <img
                 src={taskSvg}
                 alt="Vector Image"
@@ -64,12 +64,12 @@ export default function Section5() {
           {/* Second Section */}
           <div
             ref={ref2}
-            className={`relative w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-5/6 md:w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView2 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }}
           >
-            <div className="flex flex-col items-start md:w-1/2 p-6">
+            <div className="flex flex-col items-start md:w-1/2 p-2">
               <img
                 src={taskSvg}
                 alt="Vector Image"
@@ -94,12 +94,12 @@ export default function Section5() {
           {/* Third Section */}
           <div
             ref={ref3}
-            className={`relative w-3/4  flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
+            className={`relative w-5/6 md:w-3/4 flex flex-col-reverse md:flex-row items-center justify-center bg-white p-6 rounded-xl shadow-lg transform -translate-y-14 transition-opacity duration-1000 ${
               inView3 ? 'opacity-100' : 'opacity-0'
             }`}
             style={{ zIndex: 1 }}
           >
-            <div className="flex flex-col items-start md:w-1/2 p-6">
+            <div className="flex flex-col items-start md:w-1/2 p-2">
               <img
                 src={taskSvg}
                 alt="Vector Image"

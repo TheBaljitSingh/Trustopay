@@ -35,7 +35,7 @@ export default function Section3() {
         <div ref={headingRef}
           className={`w-full  md:row-span-1 text-wrap flex justify-start items-start ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
-        <h2 className="font-bold text-6xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight">
+        <h2 className="font-bold text-4xl md:text-6xl  bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight md:leading-tight">
           Empowering Safe Payments for All
         </h2>
       </div>

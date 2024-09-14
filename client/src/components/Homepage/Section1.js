@@ -72,7 +72,7 @@ export default function Section1() {
         </div>
 
         {/* Hide mobile image (tpHome) on mobile devices */}
-        <div className="absolute animate-fade-up animate-once hidden md:block  z-40  top-36 left-[840px] ">
+        <div className="absolute animate-fade-up animate-once hidden md:block  z-40  top-36  md:left-[840px]   ">
           <div className="animated-image flex items-center relative mx-auto border-[#ECECEC] dark:border-[#ECECEC] mb-4 border-[8px] rounded-[2.5rem] h-[500px] w-[250px] shadow-xl">
             <div className="rounded-[2rem] overflow-hidden w-[234px] h-[488px] bg-white dark:bg-gray-800">
               <img src={tpHome} className="block w-full h-full" alt="Mobile Mockup" />

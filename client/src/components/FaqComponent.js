@@ -1,6 +1,6 @@
 import React from 'react';
 import Faq from 'react-faq-component';
-import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const FaqComponent = () => {
 
@@ -38,7 +38,7 @@ const FaqComponent = () => {
 
   const config = {
     animate: true,
-    arrowIcon: <IoIosArrowUp />,
+    arrowIcon: <IoIosArrowDown />,
     openOnStart: 0,
   };
 
