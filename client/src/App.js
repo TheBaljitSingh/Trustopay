@@ -11,6 +11,7 @@ import B2C from './pages/B2C';
 import B2 from './pages/B2';
 import Error404 from "./pages/Error404"
 import Escrow from "./pages/Escrow"
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 
@@ -32,6 +33,8 @@ export default function App() {
       <Route path="/footer" element={<Footerr/>} />
       <Route path="/genuine" element={<Genuine/>} />
       <Route path="/product/escrow"  element={<Escrow/>} />
+      <Route path="/legal/privacypolicy"  element={<PrivacyPolicy/>} />
+
 
 
 
