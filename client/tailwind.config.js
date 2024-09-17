@@ -1,3 +1,4 @@
+const { transform } = require("lodash");
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
@@ -67,8 +68,36 @@ module.exports = {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        'translate-rotate': 'translateThenRotate1 1s ease-in-out forwards ', // Define animation class 
+        'reverse-translate-rotate': 'reverseRotate1 10s, ease-in-out forwards',
+        'translate-rotate2': 'translateThenRotate2 2s  ease-in-out forwards ', // Define animation class 
+        'reverse-translate-rotate2': 'reverseRotate2 1s, ease-in-out forwards',
+
+
       },
       keyframes: {
+        'translateThenRotate1': {
+          '0%': { transform: 'translateY(0px)' },          // Initial position
+          '50%': { transform: 'translateY(8px)' },     // Translate by 100px at 50%
+          '100%': { transform: 'translateY(8px)  rotate(45deg) ' }, // Rotate after translation
+        },
+        'reverseRotate1': {
+          '0%': { transform: 'translateY(8px)  rotate(45deg) ' },          // Initial position
+          '50%':{transform: 'translateY(8px) '},
+          '100%': { transform: 'translateY(0px) rotate(0deg)' }, // Rotate after translation
+
+        },
+        'translateThenRotate2': {
+          '0%': { transform: 'translateY(0px)' },          // Initial position
+          '50%': { transform: 'translateY(-8px)' },     // Translate by 100px at 50%
+          '100%': { transform: 'translateY(-8px) rotate(-45deg) ' }, // Rotate after translation
+        },
+        'reverseRotate2': {
+          '0%': { transform: 'translateY(-8px) rotate(-45deg) ' },          // Initial position
+          '50%': { transform: 'translateY(-8px)' },     // Translate by 100px at 50%
+          '100%': { transform: 'translateY(0px) rotate(0deg) ' }, // Rotate after translation
+        },
+
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
@@ -90,6 +119,10 @@ module.exports = {
           to: { height: "0" },
         },
       },
+      
+        
+      
+     
     },
   },
   plugins: [

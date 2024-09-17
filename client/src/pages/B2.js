@@ -5,14 +5,13 @@ export default function B2() {
   return (
     <>
     <Header/>
-      <div className=' h-screen max-w-full flex flex-col md:flex-row pl-16 justify-center items-center'>
+      <div className=' h-screen max-w-full flex flex-col md:flex-row pl-16  justify-center items-center'>
         {/* Left Side Content */}
         <div className="flex-1 items-center justify-center font-custom w-full md:w-1/2 space-y-6  md:ml-36 ">
           <div className='mb-4 animate-fade-up animate-once'>
             <h1 className="text-3xl md:text-7xl font-bold text-black mb-2">
             Scale Your B2 Worldwide
             </h1>
-           
           </div>
           <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
           Secure Transactions, Built on Trust

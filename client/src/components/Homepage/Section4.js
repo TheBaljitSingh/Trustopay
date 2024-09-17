@@ -63,7 +63,7 @@ import React from 'react';
 
 export default function Section4() {
   return (
-    <div className="bg-[#F2F2F2] h-auto  max-w-full overflow-hidden">
+    <div className="bg-[#F2F2F2] h-auto hidden md:block  max-w-full overflow-hidden">
       <div className="text-center">
         <div className="flex flex-col text-left md:text-center mt-12 px-4 py-8">
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-[#703893] to-[#3f4195] bg-clip-text text-transparent animate-fade-up animate-once animate-ease-in">
