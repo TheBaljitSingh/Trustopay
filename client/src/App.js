@@ -12,6 +12,8 @@ import B2 from './pages/B2';
 import Error404 from "./pages/Error404"
 import Escrow from "./pages/Escrow"
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import UseCases from './pages/UseCases';
+import Blog from './pages/Blog';
 
 
 
@@ -34,6 +36,9 @@ export default function App() {
       <Route path="/genuine" element={<Genuine/>} />
       <Route path="/product/escrow"  element={<Escrow/>} />
       <Route path="/legal/privacypolicy"  element={<PrivacyPolicy/>} />
+      <Route path='/usecases' element={<UseCases/>}/>
+      <Route path='/blog' element={<Blog/>}/>
+
 
 
 

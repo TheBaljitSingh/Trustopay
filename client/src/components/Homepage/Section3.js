@@ -28,7 +28,7 @@ export default function Section3() {
   });
 
   return (
-    <div className="h-auto  md:mx-24 mb-8  max-w-full overflow-hidden ">
+    <div className="h-auto  md:mx-24 mb-8 pt-4  max-w-full overflow-hidden ">
       <div className=' bg-white grid grid-rows-1 md:grid-rows-3 justify-center md:grid-flow-col gap-8 p-8 md:ml-16 '>
 
         {/* <!-- Section 1: Heading --> */}

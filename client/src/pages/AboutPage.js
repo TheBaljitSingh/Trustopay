@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import Header from '../components/shared/Header';
+import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
-import manRunning from "../assets/man-running.png";
+import ImageAutoSlider from "../utils/ImageAutoSlider"
+import { FaAngleRight, FaTwitter, FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
-import Marquee from "react-fast-marquee";
+
 
 
 
@@ -16,289 +18,220 @@ export default function AboutPage() {
     setSelectedImage(imageSrc);
   };
 
+
+
+  const teamMembers = [
+    {
+      name: "Utkarsh ",
+      role: "CFO ",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Us.png", // replace with actual image path
+    },
+    {
+      name: "Ankit Kumar",
+      role: "CEO",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // replace with actual image path
+    },
+    {
+      name: "Ankit Kumar",
+      role: "CTO & CEO",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // replace with actual image path
+    },
+  ];
+
   return (
-    <div>
-      <Header />
-      
-      {/* About Section */}
-      <div className="relative overflow-hidden bg-white">
-        <div className="pt-16 pb-40 sm:pt-24 sm:pb-32 lg:pt-40 lg:pb-48">
-          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text sm:text-6xl">
-                About Trustopay
-              </h1>
-              <p className="mt-4 text-lg text-gray-400">
-                Our vision is to build a brand that could Illuminate Transactions and Eradicate Frauds
-              </p>
-              <p className="mt-4 text-xl text-gray-500">
-                At Trustopay, we envision a future where financial transactions are not just secure but redefine the very essence of trust and transparency. Our vision is to create a payment platform that eliminates fraud and makes every transaction an experience of trust.
-              </p>
+    <div className='h-90'>
+      <PageHeader />
+
+      <div style={{ 'clip-path': 'polygon(0 0, 100% 0, 100% 75%, 0% 100%)' }} className="flex bg-gradient-to-r from-[#703893] to-[#3f4195] h-[600px] w-full justify-center items-center"
+      >
+
+        <div className='flex justify-center items-center md:px-48 w-5/6 -translate-y-18'>
+          <h1 className='text-4xl font-custom text-white font-semibold  leading-tight w-5/3 text-center'>Trustopay is India's Largest growing Startup solving all problem around the payments frauds through Escrow
+          </h1>
+        </div>
+
+
+      </div>
+
+      <div className='h-auto mb-24  px-8 md:px-48 space-y-8 flex flex-col justify-center items-center'>
+        {/* Heading Section */}
+        <h2 className='text-3xl font-custom text-center'>Built on passion and trust</h2>
+        <p className='text-center text-gray-600'>
+          Founded in the year 2024, Trustopay is a full-stack technology platform that has launched its operations in the year 2015. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.
+        </p>
+        {/* <img 
+    src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/group.png" 
+    alt="Easebuzz Team" 
+    className="w-full md:w-5/6 rounded-lg"
+  /> */}
+        <div className='w-full md:w-5/6'>
+          <ImageAutoSlider />
+        </div>
+      </div>
+
+      {/* New section like the image */}
+      <div className="w-full py-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-lg px-8 md:px-48 space-y-8">
+        <div className='grid grid-cols-2 md:grid-cols-6 gap-8 text-center'>
+          {/* Icon and Statistic Blocks */}
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="Calendar Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>2024</h3>
+            <p className='text-white'>Founding year</p>
+          </div>
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="Clients Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>1,50</h3>
+            <p className='text-white'>Happy clients</p>
+          </div>
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="API Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>10+</h3>
+            <p className='text-white'>API plugins</p>
+          </div>
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="Transactions Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>1 k+</h3>
+            <p className='text-white'>Transactions processed per day</p>
+          </div>
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/5.svg" alt="Money Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>$10 Bn+</h3>
+            <p className='text-white'>Annual GTV</p>
+          </div>
+          <div>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/5.svg" alt="Offices Icon" className="w-12 mx-auto" />
+            <h3 className='text-white text-3xl font-bold'>2 Offices</h3>
+            <p className='text-white'>Ahmedabad, Vadodara-HQ</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Vision and Mission Section */}
+      <div className='h-auto bg-[#091B49] relative flex justify-center items-center py-24 px-48'>
+
+        <div>
+          <img className='absolute top-0 left-0 z-10' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/matrix_pattern.svg" alt="" />
+        </div>
+        <div>
+          <img className='absolute h-1/4 bottom-0 right-0 z-10 ' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/our_mission_bg.png" alt="" />
+
+        </div>
+        <div className='flex justify-end w-1/2'>
+          <img className='h-full w-full z-20' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/tricolor_logo.png" alt="" />
+        </div>
+        <div className='flex w-1/2 flex-col justify-start  items-center z-20 space-y-12 text-white'>
+          <div className='space-y-4'>
+            <h2 className='font-custom text-4xl'>Our Vision</h2>
+            <p className='font-medium' >Trustopay to become INR 5000 Crore turnover company by the year 2030.</p>
+          </div>
+          <div className=' space-y-4'>
+            <h2 className='font-custom text-4xl '>Our Mission</h2>
+            <p className='font-medium'>Trustopay to become INR 5000 Crore turnover company by the year 2030.        </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      {/* <div className='h-100  flex w-full px-48 py-24 space-x-2'>
+            <div className='w-30 bg-red-400 flex flex-col items-center justify-center h-auto'>
+            <h2 className='text-2xl font-custom '>Our Culture</h2>
+              <p>At Easebuzz, we care about making an impact that truly matters. Together, we foster a culture in which our people feel empowered to drive positive change every day.</p>
+              <p>The culture at Easebuzz is very inclusive and diverse. The innovation ethos at Easebuzz empowers our employees to bring their best in solving deeper problems around the payments life cycle of varied businesses of the economy.</p>
+          
             </div>
-            
-            {/* Image Gallery */}
-            <div className="mt-10">
-              <div aria-hidden="true" className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
-                <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                  <div className="grid gap-4">
-                    <div>
-                      <img
-                        className="h-auto w-full max-w-full rounded-lg object-cover object-center md:h-[480px]"
-                        src={selectedImage}
-                        alt="Selected"
-                      />
-                    </div>
-                    <div className="grid grid-cols-5 gap-4">
-                      {[
-                        "https://trustopay.vercel.app/assets/images/image1.jpeg",
-                        "https://trustopay.vercel.app/assets/images/image1.jpeg",
-                        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-                        "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
-                        "https://trustopay.vercel.app/assets/images/image1.jpeg"
-                      ].map((src, index) => (
-                        <img
-                          key={index}
-                          src={src}
-                          className="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer hover:opacity-75"
-                          alt="gallery"
-                          onClick={() => handleImageClick(src)}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
+          <div className='w-auto h-full '>
+            <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/our-people-our-brand/culture-1.png" alt="" />
+
+          </div>
+          
+        </div>
+         */}
+
+<div className="w-full h-auto px-12 py-12 bg-white text-center">
+      <h2 className="text-3xl font-bold mb-12">Meet our leadership team</h2>
+      <div className="flex justify-center gap-8">
+        {teamMembers.map((member, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center rounded-lg shadow-lg w-72 bg-gray-50 transform transition-transform duration-300 hover:scale-105"
+          >
+            <img
+              className="w-full h-72 object-cover rounded-t-lg"
+              src={member.imgSrc}
+              alt={`${member.name}`}
+            />
+            <div className="bg-[#041440] text-white w-full p-4 flex justify-between items-center">
+              <div className="flex flex-col items-start">
+                <h3 className="text-lg font-semibold">{member.name}</h3>
+                <p className="text-sm">{member.role}</p>
+              </div>
+              <div className="flex space-x-4">
+                <FaLinkedin className="text-xl hover:text-gray-300 hover:cursor-pointer transition duration-200" />
+                <FaTwitter className="text-xl hover:text-gray-300 hover:cursor-pointer transition duration-200" />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Story Section */}
-      <div className="bg-gray-100 py-16">
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center">
-            {/* Image Section */}
-            <div className='lg:w-1/2 flex justify-center mb-6 lg:mb-0'>
-              <img 
-                className='h-full w-auto max-w-full rounded-lg object-fill'
-                src={manRunning}
-                alt="About Trustopay" 
-              />
-            </div>
-
-            {/* Text Section */}
-            <div className='sm:max-w-lg lg:w-1/2 lg:pl-10'>
-              <h1 className='text-4xl font-bold tracking-tight bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text sm:text-6xl'>Trustopay Story</h1>
-              <p className='mt-4 text-lg font-semibold text-gray-700'>
-                A company people love to work for
-              </p>
-              <p className='mt-4 text-xl text-gray-500'>
-                Our team is filled with ambitious, curious, and entrepreneurial people. We hire and nurture inquisitive, creative minds looking to flourish in a supportive and collaborative environment, certified by Flexa as a truly flexible company and rated #14 in the top 100 startups to work for in 2024 by Tempo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Our Partners */}
-      <div className='h-screen py-16 '>
-        <p className='text-2xl font-bold text-center'>Our Partnered Agencies</p>
-        <div className='h-24  flex justify-center items-center mt-12'>
-          {/* Slider component can go here */}
-        <div class="relative flex overflow-x-hidden">
-        <Marquee>
-            
-            <div className='flex gap-4 content-center '>
-
-              <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale h-24'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale h-24 ' alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale h-24'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale h-24'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c9a5_indiamart.webp" className='filter grayscale h-24'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c998_global-TIX-p-500.png"  className='filter grayscale h-24' alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale h-24'  alt="" />
-            </div>
-            
-   
-          </Marquee>
-
-      
-        </div>
-
-
-        </div>
-        <div className='flex flex-col h-2/4  justify-center items-center space-y-8 mt-36'>
-          <p className='uppercase font-bold text-2xl'>OUR VISION</p>
-          <p className='text-lg text-center text-gray-600 w-[32rem]'>
-            We envision a future where every online transaction is secure, transparent, and worry-free
-          </p>
-          <div className='flex flex-wrap justify-center gap-4 mt-4'>
-            {[
-              "Trust & Transparency",
-              "Security & Innovation",
-              "Customer-Centricity",
-              "Fairness & Impartiality"
-            ].map((vision, index) => (
-              <div key={index} className='bg-[#9747FF] w-48 h-24 rounded-md flex items-center justify-center text-white text-center'>
-                {vision}
-              </div>
-            ))}
-          </div>
-        </div>
-        </div>
-        
-        <div className="h-[400px] flex flex-col justify-center items-center">
-  <p className="font-bold text-2xl text-center mb-8">Our Team</p>
-
-  <div className="mx-auto h-[400px] flex justify-center gap-24 items-center flex-wrap">
-    {[
-      { name: 'Ankit Sharma', role: 'Heading Strategies', imgSrc: 'https://trustopay.vercel.app/assets/images/our%20team/As.png' },
-      { name: 'Jainish Gupta', role: 'Heading Technology', imgSrc: 'https://trustopay.vercel.app/assets/images/our%20team/Js.png' },
-      { name: 'Utkarsh Mishra', role: 'Operations and Finance', imgSrc: 'https://trustopay.vercel.app/assets/images/our%20team/Us.png' },
-      { name: 'Sunish Gupta', role: 'Heading Banking', imgSrc: 'https://trustopay.vercel.app/assets/images/our%20team/sg.png' }
-    ].map((member) => (
-      <div key={member.name} className="relative group w-48 h-64 bg-white shadow-lg rounded-md overflow-hidden hover:cursor-pointer">
-        <img src={member.imgSrc} alt={member.name} className="w-full h-full object-cover" />
-        <div className="absolute inset-x-0 bottom-0 h-20 bg-gray-800 bg-opacity-70 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <p className="font-bold text-white">{member.name}</p>
-          <p className="text-sm text-white">{member.role}</p>
-        </div>
-      </div>
-    ))}
-  </div>
-  
-</div>
-<div className='h-50 w-full flex justify-center items-center '>
-    <div className='flex flex-col h-2/4  justify-center items-center space-y-8 '>
-          <p className='uppercase font-bold text-2xl'>Our Approach</p>
-          <p className='text-lg text-center text-gray-600 w-[34rem]'>
-          we ensure a secure transaction and protect user data from any fraud 
-          </p>
-          <div className='flex flex-wrap justify-center gap-4 mt-4'>
-           
-
-          <div className="flex justify-around gap-8 p-8">
-      <div className="bg-[#9747FF] w-1/4 h-48 rounded-md flex flex-col items-center justify-center text-white text-center p-4 shadow-md">
-        <p className="font-bold mb-2">Customer Focus</p>
-        <p>Lorem ipsum dolor sit amet consectetur. Integer scelerisque ac velit neque.</p>
-      </div>
-
-      <div className="bg-[#9747FF] w-1/4 h-48 rounded-md flex flex-col items-center justify-center text-white text-center p-4 shadow-md">
-        <p className="font-bold mb-2">Community</p>
-        <p>Lorem ipsum dolor sit amet consectetur. Integer scelerisque ac velit neque.</p>
-      </div>
-
-      <div className="bg-[#9747FF] w-1/4 h-48 rounded-md flex flex-col items-center justify-center text-white text-center p-4 shadow-md">
-        <p className="font-bold mb-2">Social Responsibility</p>
-        <p>Lorem ipsum dolor sit amet consectetur. Integer scelerisque ac velit neque.</p>
+        ))}
       </div>
     </div>
 
+      <div className='h-auto flex items-center justify-center py-24'>
+        {/* Image and content container */}
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
 
+          {/* Image section */}
+          <div>
+            <img
+              src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/PS.svg"
+              alt="Payment Solutions Illustration"
+              className="w-full max-w-sm mx-auto"
+            />
           </div>
-        </div>
 
-  </div>
-  {/* <div className='h-90 w-full'> */}
-  <div className="max-w-8xl mx-auto p-8">
-      <h2 className="text-2xl font-bold mb-8 text-center">People who have used Trustopay for their Payment Collection</h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="border-2 rounded-lg p-6 shadow-sm flex-col">
-          <div className="flex items-center mb-4 ">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">For Safeguarding funds</p>
-          </div>
-          <p className="text-gray-700 mb-4">Trustopay made buying a logo stress-free. My funds were secured until I received the perfect design. A game-changer for safe transactions!</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/As.png" alt="Harsh Shinde" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-bold">Harsh Shinde</p>
-              <p className="text-gray-500">Freelancer | Graphic Design</p>
+          {/* Text and button section */}
+          <div>
+            {/* Heading */}
+            <h2 className="text-3xl font-semibold mb-6 text-gray-800">
+              Payment solutions that are easy to understand, and simple to use
+            </h2>
+
+            {/* Feature List */}
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-8'>
+              <ul className='text-lg text-gray-700 space-y-2'>
+              <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Quick onboarding</p> 
+                </li>
+                <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Quick onboarding</p> 
+                </li>
+              </ul>
+              <ul className='text-lg text-gray-700 space-y-2'>
+                <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Quick onboarding</p> 
+                </li>
+                <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Quick onboarding</p> 
+                </li>
+              </ul>
             </div>
-          </div>
-        </div>
 
-        <div className="border-2 rounded-lg p-6 shadow-sm">
-          <div className="flex items-center mb-4">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">For selling secondhand laptop</p>
-          </div>
-          <p className="text-gray-700 mb-4">Sold my laptop hassle-free with Trustopay. The buyer felt secure, and I got paid promptly. Trustopay is my go-to for secure transactions.</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/Js.png" alt="Arpita Pal" className="w-10 h-10 rounded-full mr-3" />
+            {/* Sign Up Button */}
             <div>
-              <p className="font-bold">Arpita Pal</p>
-              <p className="text-gray-500">Studying | OLX User</p>
-            </div>
-          </div>
-        </div>
+              <button className='inline-flex items-center gap-1 bg-gradient-to-b from-[#703893] to-[#3f4195] hover:bg-[#703893] text-white py-3 px-8 rounded-xl text-lg  transition'>
+                Sign up now <span><FaAngleRight /></span>
 
-        <div className="border-2 rounded-lg p-6 shadow-sm">
-          <div className="flex items-center mb-4">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">My go-to platform for safety</p>
-          </div>
-          <p className="text-gray-700 mb-4">Trustopay gave my earphones a new owner without worries. The buyer felt confident, and I received my payment securely. A win-win!</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Arpit Sharma" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-bold">Arpit Sharma</p>
-              <p className="text-gray-500">Teacher | OLX User</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-2 rounded-lg p-6 shadow-sm">
-          <div className="flex items-center mb-4">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">I can honestly say, I’ve enjoyed</p>
-          </div>
-          <p className="text-gray-700 mb-4">Trustopay made buying a logo stress-free. My funds were secured until I received the perfect design. A game-changer for safe transactions!</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/sg.png" alt="Gaurav Bariya" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-bold">Gaurav Bariya</p>
-              <p className="text-gray-500">Freelancer | SEO Specialist</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-2 rounded-lg p-6 shadow-sm">
-          <div className="flex items-center mb-4">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">10/10 would recommend</p>
-          </div>
-          <p className="text-gray-700 mb-4">Trustopay made buying a logo stress-free. My funds were secured until I received the perfect design. A game-changer for safe transactions!</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/sg.png" alt="Vishal Singh" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-bold">Vishal Singh</p>
-              <p className="text-gray-500">Manager | Parul University</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-2 rounded-lg p-6 shadow-sm">
-          <div className="flex items-center mb-4">
-            <span className="text-green-500 text-xl">★★★★★</span>
-            <p className="ml-2 font-bold">Creating a win-win for us</p>
-          </div>
-          <p className="text-gray-700 mb-4">Trustopay made buying a logo stress-free. My funds were secured until I received the perfect design. A game-changer for safe transactions!</p>
-          <div className="flex items-center">
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/sg.png" alt="Vijay Soni" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-bold">Vijay Soni</p>
-              <p className="text-gray-500">Art Enthusiast</p>
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
-        
-     
 
       <Footer />
     </div>

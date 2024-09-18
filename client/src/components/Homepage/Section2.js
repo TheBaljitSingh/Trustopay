@@ -38,29 +38,26 @@ export default function Section2() {
               </p>
             </div>
             <div className='flex'>
-              <button
-                type="button"
-                className={`py-3 px-4 mx-auto inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] border-gray-200 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none ${
-                  headerInView ? 'animate-fade-up animate-delay-500' : 'opacity-0'
-                }`}
-              >
-                Learn More
-                <svg
-                  className="shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="m12 5 7 7-7 7"></path>
-                </svg>
-              </button>
+            <button
+            type="button"
+            className="py-3 px-8 mb-12 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#703893] text-white shadow-lg hover:bg-[#3f4195] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
+          >
+            Learn More
+            <svg
+              className="shrink-0 h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            >
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </button>
             </div>
           </div>
 
