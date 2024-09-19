@@ -1,6 +1,9 @@
 import React from 'react';
 import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
+import {  FaGithub } from 'react-icons/fa'
+import { TbApi } from "react-icons/tb";
+
 
 export default function UseCases() {
   return (
@@ -15,7 +18,7 @@ export default function UseCases() {
             {/* Left Content */}
             <div className="flex flex-col items-start w-1/2 space-y-8 text-white -translate-y-12">
               <h2 className="text-5xl font-bold leading-tight">
-                Grow Your E-commerce Business with Easebuzz
+                Grow Your E-commerce Business with trustopay
               </h2>
               <p className="text-lg leading-relaxed">
                 Get a complete payment suite to manage payments, financial operations, refunds management, 
@@ -360,10 +363,10 @@ export default function UseCases() {
         </div>
 
 
-        <div className="h-[500px] flex items-center justify-center bg-gradient-to-r from-purple-200 to-blue-100 mb-4">
+        <div className="h-[500px] flex items-center justify-center bg-gradient-to-b from-purple-200 to-purple-300 mb-4">
   <div className="max-w-6xl mx-auto">
     <h2 className="text-3xl font-bold text-center mb-12">
-      Get more with Easebuzz E-commerce Payment Gateway
+      Get more with  E-commerce Payment Gateway
     </h2>
     <div className="flex space-x-12">
       {/* Card 1 */}
@@ -405,6 +408,9 @@ export default function UseCases() {
   </div>
       </div>
 
+    
+
+
       <div className='h-auto px-48 py-16  space-y-12'>
         <div className='flex w-full  justify-center gap-8 '>
           <div className='w-1/2 h-auto'>
@@ -432,6 +438,41 @@ export default function UseCases() {
         {/* <div className='relative flex flex-col space-y-8 justify-center items-center md:mx-36'>
             {/* First Section */}
            
+      </div>
+
+
+      <div className='h-[500px] bg-gray-300 flex justify-center items-center w-full  '>
+      <div className='  w-full flex justify-between items-center px-48'>
+        <div className='w-5/2 h-full pl-24'>
+          <img
+            src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/usecase-real-estate/case-study-section/dlf_building.png"
+            alt="Girl in a jacket"
+            
+            
+            className="rounded-lg h-full w-[400px] shadow-lg"
+          />
+        </div>
+        <div className='ml-12 w-1/2 px-12 py-2 items-start'>
+        <div className='space-y-8'>
+
+          <h2 className='text-3xl font-semibold font-custom mb-4'>A seamless Transaction process to collect ecommerce payments</h2>
+          <div className='flex flex-col'>
+          <p className='text-md font-medium text-gray-600 mb-2'>A seamless Transaction process to collect ecommerce payments</p>
+          <p className='text-md font-medium text-gray-600 mb-2'>A seamless Transaction process to collect ecommerce payments</p>
+          <p className='text-md font-medium text-gray-600 mb-4'>A seamless Transaction process to collect ecommerce payments this is extraa line</p>
+          
+          </div>
+          <div className='space-x-4 flex'>
+          <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
+            <TbApi className='mr-2' /> Documentation
+          </button>
+          <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
+            <FaGithub className='mr-2' /> Githubx
+          </button>
+        </div>
+        </div>
+        </div>
+      </div>
       </div>
 
       <Footer/>
