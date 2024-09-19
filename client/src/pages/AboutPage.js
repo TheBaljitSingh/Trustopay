@@ -281,37 +281,31 @@ export default function AboutPage() {
               <ul className='text-lg text-gray-700 space-y-2'>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
-<<<<<<< HEAD
                   <p>Quick onboarding</p>
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
-=======
                   <p>User Testimonials and Case Studies:</p> 
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Highlight Unique Features</p> 
->>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
                 </li>
               </ul>
               <ul className='text-lg text-gray-700 space-y-2'>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
-<<<<<<< HEAD
                   <p>Quick onboarding</p>
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
-=======
                   <p>Engage with Target Audience</p> 
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Offer Incentives</p> 
->>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
                 </li>
               </ul>
             </div>
