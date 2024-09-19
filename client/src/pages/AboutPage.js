@@ -108,17 +108,20 @@ export default function AboutPage() {
 
       {/* Vision and Mission Section */}
       <div className='h-auto bg-gradient-to-b from-[#703893] to-[#3f4195] relative flex justify-center items-center py-24 px-48'>
-
-        <div>
+          <div className='w-1/2 h-full flex flex-col justify-center items-center'>
+          <div>
           <img className='absolute top-0 left-0 z-10' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/matrix_pattern.svg" alt="" />
         </div>
         <div>
           <img className='absolute h-1/4 bottom-0 right-0 z-10 ' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/our_mission_bg.png" alt="" />
 
         </div>
-        <div className='flex justify-end w-1/2'>
-          <img className='h-full w-full z-20' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/tricolor_logo.png" alt="" />
+        <div className='flex justify-center w-full mr-12'>
+          <img className='h-1/2 w-full z-20' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/tricolor_logo.png" alt="" />
+          
         </div>
+          </div>
+        
         <div className='flex w-1/2 flex-col justify-start  items-center z-20 space-y-12 text-white'>
           <div className='space-y-4'>
             <h2 className='font-custom text-4xl'>Our Vision</h2>
