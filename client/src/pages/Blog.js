@@ -56,7 +56,7 @@ export default function Blog() {
       <div className='h-auto mb-24  px-8 md:px-48 space-y-8 flex flex-col justify-center items-center'>
 
       <div className="container mx-auto p-4">
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden">
+      <div className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
         <img
           src={featuredPost.imageUrl}
           alt={featuredPost.title}

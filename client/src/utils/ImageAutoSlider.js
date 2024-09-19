@@ -57,7 +57,7 @@ const ImageAutoSlider = () => {
         className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
         onClick={prevSlide}
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/80 group-hover:bg-black/30   group-focus:ring-4 group-focus:ring-white">
           <svg
             className="w-4 h-4 text-white"
             aria-hidden="true"
@@ -82,7 +82,7 @@ const ImageAutoSlider = () => {
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
         onClick={nextSlide}
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full  bg-black/80 group-hover:bg-black/30  group-focus:ring-4 group-focus:ring-white">
           <svg
             className="w-4 h-4 text-white"
             aria-hidden="true"
