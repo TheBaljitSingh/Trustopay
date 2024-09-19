@@ -3,7 +3,7 @@ import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
 import {  FaGithub } from 'react-icons/fa'
 import { TbApi } from "react-icons/tb";
-
+import { Link } from 'react-router-dom';
 
 export default function UseCases() {
   return (
@@ -18,19 +18,19 @@ export default function UseCases() {
             {/* Left Content */}
             <div className="flex flex-col items-start w-1/2 space-y-8 text-white -translate-y-12">
               <h2 className="text-5xl font-bold leading-tight">
-                Grow Your E-commerce Business with trustopay
+                Secure your transaction with Trustopay
               </h2>
               <p className="text-lg leading-relaxed">
-                Get a complete payment suite to manage payments, financial operations, refunds management, 
-                auto-reminders, split payments, auto-reconciliation, cashback coupon features, banking cards 
-                discount engine, disbursement of refunds, and real-time reporting for better sales.
+              Trustopay provides a secure solution for handling online transactions, using escrow services to safeguard funds until the buyer and seller have both fulfilled their obligations. This approach minimizes the risk of fraud and ensures that payments are only released once all parties are satisfied, offering a safe and reliable experience for users.
               </p>
+              <Link to="/contact" >
               <button
                 type="button"
                 className="text-black bg-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-xl font-medium text-base px-6 py-3"
               >
-                Sign Up Now!
+                Contact us
               </button>
+              </Link>
             </div>
 
             {/* Right Image */}
@@ -63,7 +63,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">E-commerce</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -73,7 +73,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+               Shop anytime, anywhere.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -81,7 +81,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Access a worldwide market.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -89,7 +89,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+              Reduced overhead from no physical stores
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -97,7 +97,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+              Reduced overhead from no physical stores
             </li>
           </ul>
 
@@ -114,7 +114,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">IT Agencies</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -124,7 +124,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+              Tailored tech solutions for businesses.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -132,7 +132,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Specialized in areas like cybersecurity and cloud.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -140,7 +140,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+              Services grow with the company.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -148,7 +148,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+               Ongoing technical maintenance.
             </li>
           </ul>
 
@@ -164,7 +164,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">Digital Marketing</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -174,7 +174,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+              Reach specific audiences.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -182,7 +182,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Higher ROI compared to traditional marketing.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -190,7 +190,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+               Real-time analytics for performance.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -198,7 +198,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+              Direct interaction with customers.
             </li>
           </ul>
 
@@ -214,7 +214,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">Freelancers</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -224,7 +224,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+              Set your own schedule and work from anywhere.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -232,7 +232,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Work across various industries.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -240,7 +240,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+              Choose how many clients to take on.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -248,7 +248,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+               Network to secure ongoing work.
             </li>
           </ul>
 
@@ -264,7 +264,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">Second-hand Goods</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -274,7 +274,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+             Cheaper than new items.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -282,7 +282,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Reduces waste and environmental impact.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -290,7 +290,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+               Vintage and rare items.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -298,7 +298,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+               Increased demand for affordable options.
             </li>
           </ul>
 
@@ -314,7 +314,7 @@ export default function UseCases() {
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
             />
-            <h3 className="text-2xl  font-semibold">Webstore</h3>
+            <h3 className="text-2xl  font-semibold">Fintech</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
@@ -324,7 +324,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6" // Control the size of the checkmark
               />
-              DIY online store builder
+              Fast, secure payments with digital wallets.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -332,7 +332,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Integrated payment gateway with 100+ payment modes
+              Expands financial services to underserved areas.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -340,7 +340,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Promotion and discount features are inbuilt
+               Reduced costs with automation.
             </li>
             <li className="flex items-center gap-2">
               <img 
@@ -348,7 +348,7 @@ export default function UseCases() {
                 alt="Check" 
                 className="h-6 w-6"
               />
-              Smart dashboard for reports and analysis with google analytics
+              Navigates complex compliance issues.
             </li>
           </ul>
 
@@ -366,7 +366,7 @@ export default function UseCases() {
         <div className="h-[500px] flex items-center justify-center bg-gradient-to-b from-purple-200 to-purple-300 mb-4">
   <div className="max-w-6xl mx-auto">
     <h2 className="text-3xl font-bold text-center mb-12">
-      Get more with  E-commerce Payment Gateway
+    Key Features of Trustopay
     </h2>
     <div className="flex space-x-12">
       {/* Card 1 */}
@@ -374,8 +374,8 @@ export default function UseCases() {
         <div className="h-16 w-16 flex justify-center items-center rounded-full border-2 border-blue-300 mb-4">
           <img className="h-10 w-10" src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/quick.svg" alt="Quick Onboarding Icon" />
         </div>
-        <p className="font-bold text-lg">Quick Onboarding</p>
-        <p className="text-gray-600">Go live instantly with an online KYC onboarding process</p>
+        <p className="font-bold text-lg">Secure Payment Processing</p>
+        <p className="text-gray-600">Trustopay uses advanced encryption and fraud detection to secure transactions.</p>
       </div>
 
       {/* Card 2 */}
@@ -383,8 +383,8 @@ export default function UseCases() {
         <div className="h-16 w-16 flex justify-center items-center rounded-full border-2 border-blue-300  mb-4">
           <img className="h-10 w-10" src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/instant.svg" alt="Instant Settlements Icon" />
         </div>
-        <p className="font-bold text-lg">Instant Settlements</p>
-        <p className="text-gray-600">Experience same-day settlements (T+0) for continuous access to financial cash flow</p>
+        <p className="font-bold text-lg">Flexible Payment Options</p>
+        <p className="text-gray-600">Trustopay supports diverse payment methods, including digital wallets and cards.</p>
       </div>
 
       {/* Card 3 */}
@@ -392,8 +392,8 @@ export default function UseCases() {
         <div className="h-16 w-16 flex justify-center items-center rounded-full border-2 border-blue-300  mb-4">
           <img className="h-10 w-10" src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/auto.svg" alt="Webhook Notification Icon" />
         </div>
-        <p className="font-bold text-lg">Auto reconciliation with Webhook Notification</p>
-        <p className="text-gray-600">Receive notifications on payment status and other payment events via Webhook</p>
+        <p className="font-bold text-lg">User-Friendly Interface</p>
+        <p className="text-gray-600">Trustopay offers an intuitive interface for easy transactions.</p>
       </div>
 
       {/* Card 4 */}
@@ -401,8 +401,8 @@ export default function UseCases() {
         <div className="h-16 w-16 flex justify-center items-center rounded-full border-2 border-blue-300  mb-4">
           <img className="h-10 w-10" src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/refund.svg" alt="Instant Refunds Icon" />
         </div>
-        <p className="font-bold text-lg">Instant Refunds</p>
-        <p className="text-gray-600">Initiate lightning-fast refunds directly through the dashboard or via APIs</p>
+        <p className="font-bold text-lg">Real-Time Analytics</p>
+        <p className="text-gray-600">Trustopay provides real-time analytics for optimizing payment strategies.</p>
       </div>
     </div>
   </div>
@@ -417,10 +417,13 @@ export default function UseCases() {
             <img className='h-80 w-full' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/coupon_engine.gif" alt="" />
           </div>
           <div className=' w-1/2 h-auto  space-y-10'>
-            <p className='text-4xl font-custom font-bold'>Manage discount coupons & cashback with our E-commerce payment gateway
+            <p className='text-4xl font-custom font-bold'>The Most Reliable and Secure Payment Solution
             </p>
-            <p><span className='font-bold'>Discount coupon engine</span> to create customisable discount coupons from the dashboard, manage their validity and offer discounts based on payment mode-wise and bank/card-wise.</p>
-            <p><span className='font-bold'>Brand Coupons</span> allow customers to select, manage and customise cashback coupons during the checkout process.</p>
+            {/* <p><span className='font-bold'>Discount coupon engine</span> to create customisable discount coupons from the dashboard, manage their validity and offer discounts based on payment mode-wise and bank/card-wise.</p>
+            <p><span className='font-bold'>Brand Coupons</span> allow customers to select, manage and customise cashback coupons during the checkout process.</p> */}
+            <p>Trustopay is a trusted and secure payment platform that adheres to the highest industry standards. Our platform is regularly audited to ensure compliance with financial regulations and security protocols. These thorough audits are conducted to protect user information, verify the safety and reliability of our services, and ensure adherence to payment processing regulations.
+
+</p>
           </div>
         </div> 
         <div className='flex flex-row-reverse w-full  justify-center gap-8 '>
@@ -428,10 +431,10 @@ export default function UseCases() {
             <img className='h-80 w-full' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case/customization.svg" alt="" />
           </div>
           <div className=' w-1/2 h-auto  space-y-10'>
-            <p className='text-4xl font-custom font-bold'>Manage discount coupons & cashback with our E-commerce payment gateway
+            <p className='text-4xl font-custom font-bold'>Secure Payments for Your Website, Marketplace, or App
             </p>
-            <p><span className='font-bold'>Discount coupon engine</span> to create customisable discount coupons from the dashboard, manage their validity and offer discounts based on payment mode-wise and bank/card-wise.</p>
-            <p><span className='font-bold'>Brand Coupons</span> allow customers to select, manage and customise cashback coupons during the checkout process.</p>
+            <p><span className='font-bold'>Designed by Developers for Developers</span> Any business can easily integrate Trustopay’s secure payment solutions into their platform, as seamlessly as common payment methods like Stripe.</p>
+            <p><span className='font-bold'>Ensuring Safety for Both Buyers and Sellers</span> With Trustopay, buyers benefit from secure transactions and protection through real-time payment monitoring. Sellers are safeguarded from chargebacks and fraud, ensuring a secure and reliable payment experience.</p>
           </div>
         </div>
         
@@ -455,19 +458,17 @@ export default function UseCases() {
         <div className='ml-12 w-1/2 px-12 py-2 items-start'>
         <div className='space-y-8'>
 
-          <h2 className='text-3xl font-semibold font-custom mb-4'>A seamless Transaction process to collect ecommerce payments</h2>
+          <h2 className='text-3xl font-semibold font-custom mb-4'>A Seamless Transaction Process for E-Commerce Payments</h2>
           <div className='flex flex-col'>
-          <p className='text-md font-medium text-gray-600 mb-2'>A seamless Transaction process to collect ecommerce payments</p>
-          <p className='text-md font-medium text-gray-600 mb-2'>A seamless Transaction process to collect ecommerce payments</p>
-          <p className='text-md font-medium text-gray-600 mb-4'>A seamless Transaction process to collect ecommerce payments this is extraa line</p>
+          <p className='text-md font-medium text-gray-600 mb-2'>Trustopay offers a streamlined and efficient payment process for e-commerce platforms, ensuring smooth transactions from start to finish. Our solution simplifies payment collection with minimal friction, enhancing the overall user experience and allowing businesses to focus on growth while we handle the complexities of payment processing securely and reliably.</p>
           
           </div>
           <div className='space-x-4 flex'>
           <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
-            <TbApi className='mr-2' /> Documentation
+             Learn More
           </button>
           <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
-            <FaGithub className='mr-2' /> Githubx
+            Get Started Now
           </button>
         </div>
         </div>
