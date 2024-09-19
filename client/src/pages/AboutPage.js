@@ -55,7 +55,7 @@ export default function AboutPage() {
 
       <div className='h-auto mb-24  px-8 md:px-48 space-y-8 flex flex-col justify-center items-center'>
         {/* Heading Section */}
-        <h2 className='text-3xl font-custom text-center'>Built on passion and trust</h2>
+        <h2 className='text-3xl font-custom text-center'>Image pe Button hai dono side me </h2>
         <p className='text-center text-gray-600'>
           Founded in the year 2024, Trustopay is a full-stack technology platform that has launched its operations in the year 2015. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.
         </p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
       </div>
 
       {/* New section like the image */}
-      <div className="w-full py-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-lg px-8 md:px-48 space-y-8">
+      <div className="w-full py-12 bg-gradient-to-r from-[#3f4195] to-[#3f4195] rounded-lg px-8 md:px-48 space-y-8">
         <div className='grid grid-cols-2 md:grid-cols-6 gap-8 text-center'>
           {/* Icon and Statistic Blocks */}
           <div>
@@ -107,7 +107,7 @@ export default function AboutPage() {
       </div>
 
       {/* Vision and Mission Section */}
-      <div className='h-auto bg-[#091B49] relative flex justify-center items-center py-24 px-48'>
+      <div className='h-auto bg-gradient-to-b from-[#703893] to-[#3f4195] relative flex justify-center items-center py-24 px-48'>
 
         <div>
           <img className='absolute top-0 left-0 z-10' src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/matrix_pattern.svg" alt="" />
