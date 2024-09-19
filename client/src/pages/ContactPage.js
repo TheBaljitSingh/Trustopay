@@ -82,6 +82,7 @@ export default function ContactPage() {
 
 
       <div className='mt-48  h-60 py-4 rounded-lg px-48 w-full flex justify-center items-center'>
+<<<<<<< HEAD
         <div className='w-5/6 h-full bg-gradient-to-b  from-[#703893] to-[#3f4195]  flex justify-between  items-center space-x-8 p-12 rounded-xl'>
           <div className="text-white text-center space-y-6">
             <h2 className="text-4xl font-bold text-start">Scale-up your Business</h2>
@@ -90,18 +91,35 @@ export default function ContactPage() {
           <div>
             <button className="bg-white text-blue-600 py-3 px-6 rounded-xl text-sm font-medium hover:bg-gray-100 transition duration-200">
               Sign Up for Free →
+=======
+        <div className='w-5/6 h-full bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 flex justify-between  items-center space-x-8 p-12 rounded-xl'>
+          <div className="text-white text-center">
+            <h2 className="text-4xl font-bold">Secure your payements</h2>
+            <p className="text-lg">with Trustopay Payment Solutions Platform</p>
+          </div>
+          <div>
+            <button className="bg-white text-blue-600 py-3 px-6 rounded-lg text-sm font-medium hover:bg-gray-100 transition duration-200">
+              Download Trustopay Now
+>>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
             </button>
           </div>
         </div>
       </div>
 
 {/* map content */}
+<<<<<<< HEAD
       <div className='w-full flex justify-center items-center py-12'> 
 
       <GoogleMap/>
+=======
+      {/* <div className='w-full flex justify-center items-center py-12'> 
+      <div>
+      <h2>Map Add kar dunga</h2>
+      </div>
+>>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
         
 
-      </div>
+      </div> */}
 
       <div className='  h-60 mb-14 rounded-lg px-48 w-full flex justify-center items-center'>
         <div className='w-5/6 h-full bg-gradient-to-b  from-[#703893] to-[#3f4195]  flex justify-between  items-center space-x-8 p-12 rounded-xl'>

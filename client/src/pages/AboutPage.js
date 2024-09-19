@@ -55,7 +55,7 @@ export default function AboutPage() {
 
       <div className='h-auto mb-24  px-8 md:px-48 space-y-8 flex flex-col justify-center items-center'>
         {/* Heading Section */}
-        <h2 className='text-3xl font-custom text-center'>Image pe Button hai dono side me </h2>
+        <h2 className='text-3xl font-custom text-center'>Our Gallery </h2>
         <p className='text-center text-gray-600'>
           Founded in the year 2024, Trustopay is a full-stack technology platform that has launched its operations in the year 2015. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.
         </p>
@@ -122,11 +122,11 @@ export default function AboutPage() {
         <div className='flex w-1/2 flex-col justify-start  items-center z-20 space-y-12 text-white'>
           <div className='space-y-4'>
             <h2 className='font-custom text-4xl'>Our Vision</h2>
-            <p className='font-medium' >Trustopay to become INR 5000 Crore turnover company by the year 2030.</p>
+            <p className='font-medium' > Trustopay aims to reach a turnover of INR 5000 Crore by 2030, driven by innovation and excellence in payment solutions. We are committed to expanding our impact and redefining the payment landscape with cutting-edge technology.</p>
           </div>
           <div className=' space-y-4'>
             <h2 className='font-custom text-4xl '>Our Mission</h2>
-            <p className='font-medium'>Trustopay to become INR 5000 Crore turnover company by the year 2030.        </p>
+            <p className='font-medium'>Our mission is to achieve INR 5000 Crore in turnover by 2030 through strategic growth, advanced technology, and exceptional service. We focus on building strong partnerships and delivering value to set new industry standards.</p>
           </div>
         </div>
 
@@ -281,21 +281,37 @@ export default function AboutPage() {
               <ul className='text-lg text-gray-700 space-y-2'>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+<<<<<<< HEAD
                   <p>Quick onboarding</p>
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
+=======
+                  <p>User Testimonials and Case Studies:</p> 
+                </li>
+                <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Highlight Unique Features</p> 
+>>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
                 </li>
               </ul>
               <ul className='text-lg text-gray-700 space-y-2'>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+<<<<<<< HEAD
                   <p>Quick onboarding</p>
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
+=======
+                  <p>Engage with Target Audience</p> 
+                </li>
+                <li className='flex items-center space-x-4'>
+                  <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
+                  <p>Offer Incentives</p> 
+>>>>>>> 79b82a777795f4c0898a1d19d48e41e85f211667
                 </li>
               </ul>
             </div>
@@ -303,7 +319,7 @@ export default function AboutPage() {
             {/* Sign Up Button */}
             <div>
               <button className='inline-flex items-center gap-1 bg-gradient-to-b from-[#703893] to-[#3f4195] hover:bg-[#703893] text-white py-3 px-8 rounded-xl text-lg  transition'>
-                Sign up now <span><FaAngleRight /></span>
+                Download Our App <span><FaAngleRight /></span>
 
               </button>
             </div>
