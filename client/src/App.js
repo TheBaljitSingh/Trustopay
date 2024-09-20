@@ -14,6 +14,9 @@ import Escrow from "./pages/Escrow"
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import UseCases from './pages/UseCases';
 import Blog from './pages/Blog';
+import CaseStudiesPage from './pages/CaseStudiesPage';
+import CaseStudyDetail from './pages/CaseStudyDetail';
+// import PayPalBlog from './pages/PayPalBlog';
 
 
 
@@ -39,7 +42,10 @@ export default function App() {
       <Route path="/legal/privacypolicy"  element={<PrivacyPolicy/>} />
       <Route path='/usecases' element={<UseCases/>}/>
       <Route path='/blog' element={<Blog/>}/>
-      {/* <Route path="/paypal-blog" element={<PayPalBlog />} /> Route for PayPal blog */}
+      <Route path="/case-studies" element={<CaseStudiesPage/>} />
+      <Route path="/case-studies/:caseStudyName" element={<CaseStudyDetail />} />
+
+      
 
 
 
