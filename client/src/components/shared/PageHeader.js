@@ -191,7 +191,7 @@ function Header() {
       </div>
       <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/about">About</Link>
       <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/contact">Contact</Link>
-      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/blog">Blog</Link>
+      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/case-study">Case Studies</Link>
     </div>
 
     {/* Buttons */}

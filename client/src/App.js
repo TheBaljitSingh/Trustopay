@@ -41,9 +41,9 @@ export default function App() {
       <Route path="/product/escrow"  element={<Escrow/>} />
       <Route path="/legal/privacypolicy"  element={<PrivacyPolicy/>} />
       <Route path='/usecases' element={<UseCases/>}/>
-      <Route path='/blog' element={<Blog/>}/>
-      <Route path="/case-studies" element={<CaseStudiesPage/>} />
-      <Route path="/case-studies/:caseStudyName" element={<CaseStudyDetail />} />
+      {/* <Route path='/blog' element={<Blog/>}/> */}
+      <Route path="/case-study" element={<CaseStudiesPage/>} />
+      <Route path="/case-study/:caseStudyName" element={<CaseStudyDetail />} />
 
       
 

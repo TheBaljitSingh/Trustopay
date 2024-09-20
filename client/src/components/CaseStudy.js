@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const CaseStudy = ({ companyName, description, image, keyTakeaways }) => {
   return (
-    <Link to={`/case-studies/${companyName.replace(/\s+/g, '-').toLowerCase()}`} >
+    <Link to={`/case-study/${companyName.replace(/\s+/g, '-').toLowerCase()}`} >
     <div    className="case-study p-6 rounded-lg shadow-lg max-w-xl   hover:cursor-pointer ">
       <img src={image} alt={`${companyName} logo`} className="mx-auto justify-center  h-40 mb-4" />
       <h2 className="text-xl font-bold mb-2">{companyName}</h2>

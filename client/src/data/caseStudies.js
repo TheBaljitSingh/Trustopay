@@ -20,6 +20,16 @@ const caseStudies = [
         'Enhanced system performance by 30%',
       ],
     },
+    {
+      companyName: 'Parul University',
+      description: 'This case study discusses the product development journey with Company B.',
+      image: 'https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/feesbuzz/case-study-parul/parul_logo.png',
+      keyTakeaways: [
+        'Reduced costs by 10%',
+        'Increased product adoption',
+        'Enhanced system performance by 30%',
+      ],
+    },
     
     // Add more case studies here
   ];

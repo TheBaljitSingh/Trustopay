@@ -193,7 +193,7 @@ function Header() {
             </div>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/about">About</Link>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/contact">Contact</Link>
-            <Link className="text-lg text-gray-700 hover:text-gray-500" to="/blog">Blog</Link>
+            <Link className="text-lg text-gray-700 hover:text-gray-500" to="/case-study">Case Studies</Link>
 
           </div>
 
