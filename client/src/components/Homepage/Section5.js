@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import taskSvg from "../../assets/images/task_svg.svg";
 import bgImg from "../../assets/images/bg_image.svg";
+import { useNavigate } from 'react-router-dom';
 
 export default function Section5() {
   const [ref1, inView1] = useInView({ triggerOnce: true });
   const [ref2, inView2] = useInView({ triggerOnce: true });
   const [ref3, inView3] = useInView({ triggerOnce: true });
+  const navigate = useNavigate();
 
   return (
     <div className=' md:h-[1400px]  max-w-full overflow-hidden'>
@@ -123,6 +125,7 @@ export default function Section5() {
           </div>
           <div className='flex justify-center items-center '>
           <button
+          onClick={()=>navigate("/product/escrow")}
             type="button"
             className="py-3 px-8 mb-12 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >

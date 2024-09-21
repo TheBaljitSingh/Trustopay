@@ -3,6 +3,8 @@ import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
 import GoogleMap from '../utils/GoogleMap';
 import { IoMdArrowRoundForward } from "react-icons/io";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export default function ContactPage() {
@@ -88,9 +90,15 @@ export default function ContactPage() {
             <p className="text-lg text-start">with Trustopay Payment Solutions Platform</p>
           </div>
           <div>
-            <button className="bg-white text-blue-600 py-3 px-6 rounded-xl text-sm font-medium hover:bg-gray-100 transition duration-200">
-              Sign Up for Free →
-            </button>
+            {/* <button className="bg-white text-blue-600 py-3 px-6 rounded-xl text-sm font-medium hover:bg-gray-100 transition duration-200">
+              Sign Up for Free 
+              <FontAwesomeIcon icon={faArrowRight} className="pl-2 fa-md pt-1" />
+
+            </button> */}
+            <button className="text-blue-600 bg-white py-3 px-6 rounded-xl text-sm font-medium  inline-flex hover:bg-gray-100 mt-6 transition duration-150 ease-in-out mb-4 items-center justify-center">
+            Sign Up for Free 
+            <FontAwesomeIcon icon={faArrowRight} className="pl-2 fa-md pt-1" />
+              </button>
           </div>
         </div>
       </div>
@@ -110,9 +118,10 @@ export default function ContactPage() {
             <p className="text-lg text-start w-5/6">For further help related to our products and services, please refer to our Helpdesk and Knowledge Base portal.</p>
           </div>
          <div className='flex justify-end w-1/2 '>
-         <button className="bg-white text-blue-600 py-3 px-6 rounded-xl text-sm font-medium hover:bg-gray-100 transition duration-200">
-              Sign Up for Free →
-            </button>
+         <button className="text-blue-600 bg-white py-3 px-6 rounded-xl text-sm font-medium  inline-flex hover:bg-gray-100 mt-6 transition duration-150 ease-in-out mb-4 items-center justify-center">
+            Sign Up for Free 
+            <FontAwesomeIcon icon={faArrowRight} className="pl-2 fa-md pt-1" />
+              </button>
          </div>
 
         </div>

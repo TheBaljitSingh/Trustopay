@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/shared/Header'
 
-export default function B2() {
+export default function API() {
   return (
     <>
     <Header/>
@@ -10,7 +10,7 @@ export default function B2() {
         <div className="flex-1 items-center justify-center font-custom w-full md:w-1/2 space-y-6  md:ml-36 ">
           <div className='mb-4 animate-fade-up animate-once'>
             <h1 className="text-3xl md:text-7xl font-bold text-black mb-2">
-            Scale Your B2 Worldwide
+            Scale Your Business Worldwide
             </h1>
           </div>
           <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
@@ -26,6 +26,7 @@ export default function B2() {
           </div>
           <div className='flex justify-start items-center'>
             <button
+            onClick={()=>window.location="/"}
               type="button"
               className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-gradient-to-r from-[#3f4195] to-[#703893]  border-gray-200  text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >

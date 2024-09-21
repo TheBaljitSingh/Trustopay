@@ -94,7 +94,8 @@ function Header() {
 
     {/* Desktop menu */}
     <div className="hidden md:flex space-x-8 items-center font-semibold">
-      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/">Home</Link>
+      <a className={`text-lg  ${showHeader ? 'text-black' : 'text-white'} text-gray-700 hover:text-gray-500`} href="/"> Home</a>
+
       <div
         onMouseEnter={() => handleMenuDropDownClick('products')}
         className="relative">
@@ -110,7 +111,7 @@ function Header() {
             <ul className="py-2 text-black"> {/* Change text color to black */}
               <li>
                 <a 
-                  onClick={() => handleDropdownClick('/product/b2')} 
+                  href='/product/api' 
                   className="flex items-center px-4 py-2 hover:bg-gray-200 cursor-pointer"
                 >
                   <FontAwesomeIcon icon={faPlug} className="mr-2" /> API
@@ -189,19 +190,19 @@ function Header() {
           </div>
         )}
       </div>
-      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/about">About</Link>
-      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/contact">Contact</Link>
-      <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/case-study">Case Studies</Link>
+      <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/about'  to="/about">About</a>
+      <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/contact'>Contact</a>
+      {/* <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/case-study">Case Studies</Link> */}
     </div>
 
     {/* Buttons */}
     <div className="flex md:space-x-4">
-      <button className={`hidden md:block border ${showHeader ? 'border-black text-black' : 'border-indigo-600 text-white'} py-2 px-4 rounded`}>
-        <p className="text-lg md:text-md inline-block font-medium">Login</p>
-      </button>
-      <button className={`w-full md:w-32 ${!showHeader ? 'bg-white text-black' : 'bg-gradient-to-r from-[#703893] to-[#3f4195] text-white'} py-2 px-4 rounded`}>
+    <button className={`hidden md:block  text-white border-white  border ${showHeader &&  'text-white bg-gradient-to-r from-[#703893] to-[#3f4195]'} border-indigo-600 py-2 px-4 rounded`}>
+              <p className="text-lg md:text-md inline-block font-medium  ">Download  our App</p>
+            </button>
+      {/* <button className={`w-full md:w-32 ${!showHeader ? 'bg-white text-black' : 'bg-gradient-to-r from-[#703893] to-[#3f4195] text-white'} py-2 px-4 rounded`}>
         <p className="text-lg md:text-lg text-wrap inline-block font-medium">Sign Up</p>
-      </button>
+      </button> */}
     </div>
   </nav>
 </header>

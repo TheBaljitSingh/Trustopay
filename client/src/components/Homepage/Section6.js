@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router-dom';
 
 export default function Section6() {
   const [activeSection, setActiveSection] = useState('first');
   const [flash, setFlash] = useState(false);
+  const navigate = useNavigate();
 
   const handleClick = (section) => {
     setFlash(true);
@@ -164,11 +166,11 @@ export default function Section6() {
       {/* Bottom Center Button */}
       <div className='mt-24 md:mt-4'>
         <div className='flex justify-center items-center mb-12'>
-          <button
+          <button onClick={()=>navigate('/product/api')}
             type="button"
             className="py-3 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >
-            Contact Sales
+            API Documentation
             <svg className="shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>

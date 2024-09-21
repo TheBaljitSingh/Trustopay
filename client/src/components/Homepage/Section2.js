@@ -38,7 +38,7 @@ export default function Section2() {
               </p>
             </div>
             <div className='flex'>
-            <button
+            {/* <button
             type="button"
             className="py-3 px-8 mb-12 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#703893] text-white shadow-lg hover:bg-[#3f4195] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >
@@ -57,7 +57,7 @@ export default function Section2() {
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>
             </svg>
-          </button>
+          </button> */}
             </div>
           </div>
 

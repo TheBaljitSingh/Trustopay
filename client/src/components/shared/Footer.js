@@ -23,33 +23,36 @@ function Footer() {
             <li className="mb-2"><a href="#" className="hover:underline">Payment Gateway</a></li>
             <li className="mb-2"><a href="#" className="hover:underline">Global Business Account</a></li>
             <li className="mb-2"><a href="#" className="hover:underline">Payouts</a></li>
-            <li><a href="#" className="hover:underline">Escrow</a></li>
+            <li><a href="/product/escrow" className="hover:underline">Escrow</a></li>
           </ul>
         </div>
         <div>
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Solutions</h2>
           <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="#" className="hover:underline">Travel</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Online Gaming</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">eCommerce Platforms</a></li>
-            <li><a href="#" className="hover:underline">Fintech</a></li>
+            <li className="mb-2"><a href="/usecases" className="hover:underline">Travel</a></li>
+            <li className="mb-2"><a href="/usecases" className="hover:underline">Online Gaming</a></li>
+            <li className="mb-2"><a href="/usecases" className="hover:underline">eCommerce Platforms</a></li>
+            <li><a href="/usecases" className="hover:underline">Fintech</a></li>
           </ul>
         </div>
         <div>
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
           <ul className="text-gray-500 font-medium">
             <li className="mb-2"><a href="#" className="hover:underline">FAQ</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Case Studies</a></li>
+            <li className="mb-2"><a href="/usecases" className="hover:underline">Case Studies</a></li>
             <li className="mb-2"><a href="#" className="hover:underline">Blogs</a></li>
             <li><a href="#" className="hover:underline">Guides</a></li>
           </ul>
         </div>
         <div>
-          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">About Us</h2>
+          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
           <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="#" className="hover:underline">Team</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Contact Us</a></li>
-            <li><a href="#" className="hover:underline">Responsible Disclosure</a></li>
+            <li className="mb-2"><a href="/about" className="hover:underline">Team</a></li>
+            <li className="mb-2"><a href="/contact" className="hover:underline">Contact Us</a></li>
+            <li className="mb-2"><a href="/legal/privacypolicy" className="hover:underline">Responsible Disclosure</a></li>
+
+            <li className="mb-2"><a href="/legal/privacypolicy" className="hover:underline">Privacy Policy</a></li>
+
           </ul>
         </div>
       </div>
@@ -61,10 +64,10 @@ function Footer() {
           © 2024 <a href="https://trustopay.com/" className="hover:underline">Trustopay</a>. All Rights Reserved.
         </span>
         <div className="flex space-x-6 mt-4 md:mt-0 justify-center md:justify-start">
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a href="https://www.linkedin.com/company/trustopayy/" className="text-gray-500 hover:text-gray-900">
             <img src={facebookImg} alt="Facebook" className="w-6" />
           </a>
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a href="https://www.linkedin.com/company/trustopayy/"  className="text-gray-500 hover:text-gray-900">
             <img src={linkedinImg} alt="LinkedIn" className="w-6" />
           </a>
         </div>

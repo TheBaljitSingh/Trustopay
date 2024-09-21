@@ -7,20 +7,20 @@ const FaqComponent = () => {
   const data = {
     rows: [
       {
-        title: "Do you have a fee for integration support?",
+        title: "What is Trustopay?",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
-        title: "Are there any fees associated with canceling your service or closing my account?",
+        title: "How Trustopay will help you?",
         content: "Phasellus bibendum ipsum at viverra egestas."
       },
       {
-        title: "When will I receive my settlements?",
+        title: "How Trustopay is Different from other platform?",
         content: "Donec tempor tellus sed cursus finibus."
       },
       {
         title: "What are the payout options for receiving my payments?",
-        content: "Pellentesque habitant morbi tristique senectus et netus et malesuada."
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]
   };
@@ -29,7 +29,7 @@ const FaqComponent = () => {
     bgColor: 'white',
     titleTextColor: "#703893",
     rowTitleColor: "#000000",
-    rowContentColor: "#3f4195",
+    rowContentColor: "#241512",
     arrowColor: "#0f3c53",
     rowTitleTextSize: '18px',
     rowContentTextSize: '16px',
@@ -48,7 +48,7 @@ const FaqComponent = () => {
         <div className="lg:w-1/3 mb-8 lg:mb-0 flex flex-col-reverse md:flex-col gap-y-8 md:gap-y-0">
           <h2 className="text-[#000000] flex text-3xl font-bold mb-4 ">Frequently Asked Questions</h2>
           <div className='flex justify-center lg:justify-start'>
-            <button
+            {/* <button
               type="button"
               className="py-3 px-4 flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8965e4] transition"
             >
@@ -66,7 +66,7 @@ const FaqComponent = () => {
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
-            </button>
+            </button> */}
           </div>
         </div>
 

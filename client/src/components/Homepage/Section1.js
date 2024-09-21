@@ -29,10 +29,11 @@ export default function Section1() {
           </div>
           <div className='flex justify-start items-center'>
             <button
+            onClick={()=>window.location="https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en"}
               type="button"
               className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-gradient-to-r from-[#703893] to-[#3f4195]  border-gray-200  text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >
-              Get Started
+              Download our App 
               <svg
                 className="shrink-0 size-4"
                 xmlns="http://www.w3.org/2000/svg"

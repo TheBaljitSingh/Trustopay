@@ -98,7 +98,8 @@ function Header() {
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8 items-center font-semibold">
-            <Link className="text-lg text-gray-700 hover:text-gray-500" to="/">Home</Link>
+            
+            <a className="text-lg text-gray-700 hover:text-gray-500" href="/"> Home</a>
             <div
               onMouseEnter={() => handleMenuDropDownClick('products')}
               className="relative">
@@ -114,7 +115,7 @@ function Header() {
                  <ul className="py-2 text-gray-700">
                    <li>
                      <a 
-                       onClick={() => handleDropdownClick('/product/b2')} 
+                       onClick={() => handleDropdownClick('/product/Api')} 
                        className="flex items-center px-4 py-2 hover:bg-gray-200 cursor-pointer"
                      >
                        <FontAwesomeIcon icon={faPlug} className="mr-2" /> API
@@ -130,7 +131,8 @@ function Header() {
                    </li>
                    <li>
                      <a 
-                       onClick={() => handleDropdownClick('/product/b2b')} 
+                     href='https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en'
+                       
                        className="flex items-center px-4 py-2 hover:bg-gray-200 cursor-pointer"
                      >
                        <FontAwesomeIcon icon={faMobileAlt} className="mr-2" /> Trustopay App
@@ -158,32 +160,32 @@ function Header() {
                 <div onMouseLeave={() => handleMenuDropDownClick("")} onMouseEnter={() => handleMenuDropDownClick('usecases')} className="absolute bg-white shadow-lg rounded-lg mt-2 w-[200px]">
                   <ul className="py-2 text-gray-700">
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a href='/usecases'  className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faMoneyBillWave} className="mr-2" /> Fintech
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a href='/usecases'  className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faShoppingCart} className="mr-2" /> E-Commerce
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a href='/usecases'     className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faLaptopCode} className="mr-2" /> IT Agencies
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a  href='/usecases'    className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faBullhorn} className="mr-2" /> Digital Marketing
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a  href='/usecases'    className="flex items-center md:block px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faUserTie} className="mr-2" /> Freelancers
                       </a>
                     </li>
                     <li>
-                      <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center md:flex px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                      <a   href='/usecases'   className="flex items-center md:flex px-4 py-2 hover:bg-gray-200 cursor-pointer">
                         <FontAwesomeIcon icon={faExchangeAlt} className="mr-2" /> Second-hand Goods
                       </a>
                     </li>
@@ -193,19 +195,19 @@ function Header() {
             </div>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/about">About</Link>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/contact">Contact</Link>
-            <Link className="text-lg text-gray-700 hover:text-gray-500" to="/case-study">Case Studies</Link>
+            {/* <Link className="text-lg text-gray-700 hover:text-gray-500" to="/case-study">Case Studies</Link> */}
 
           </div>
 
 
           {/* Buttons */}
           <div className="flex md:space-x-4">
-            <button className="hidden md:block border text-black border-indigo-600 py-2 px-4 rounded">
-              <p className="text-lg md:text-md inline-block font-medium bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text">Login</p>
+            <button className="hidden md:block border text-black bg-gradient-to-r from-[#703893] to-[#3f4195] border-indigo-600 py-2 px-4 rounded">
+              <p className="text-lg md:text-md inline-block font-medium text-white ">Download  our App</p>
             </button>
-            <button className="w-full md:w-32 bg-gradient-to-r from-[#703893] to-[#3f4195] inline-block text-white py-2 px-4 rounded">
+            {/* <button className="w-full md:w-32 bg-gradient-to-r from-[#703893] to-[#3f4195] inline-block text-white py-2 px-4 rounded">
               <p className="text-lg md:text-lg text-wrap inline-block font-medium">Sign Up</p>
-            </button>
+            </button> */}
           </div>
         </nav>
       </header>
