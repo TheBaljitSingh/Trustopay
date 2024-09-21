@@ -4,6 +4,9 @@ import Footer from '../components/shared/Footer';
 import {  FaGithub } from 'react-icons/fa'
 import { TbApi } from "react-icons/tb";
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBagShopping, faCartShopping, faComputer, faCookie, faPlay, faVideo, faWallet} from '@fortawesome/free-solid-svg-icons';
+
 
 export default function UseCases() {
   return (
@@ -58,21 +61,18 @@ export default function UseCases() {
             {/* Webstore Card */}
             <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
+            {/* <img 
               src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
               alt="Webstore Icon" 
               className="h-12 w-12" // Control the size of the icon
-            />
+            /> */}
+            <FontAwesomeIcon icon={faCartShopping} className='fa fa-2xl' />
+
             <h3 className="text-2xl  font-semibold">E-commerce</h3>
           </div>
 
           <ul className="text-gray-700 space-y-5 p-3">
             <li className="flex items-center gap-2  font-medium   ">
-              <img 
-                src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/pricing/correct.svg" 
-                alt="Check" 
-                className="h-6 w-6" // Control the size of the checkmark
-              />
                Shop anytime, anywhere.
             </li>
             <li className="flex items-center gap-2">
@@ -109,11 +109,8 @@ export default function UseCases() {
 
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
-              src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
-              alt="Webstore Icon" 
-              className="h-12 w-12" // Control the size of the icon
-            />
+          <FontAwesomeIcon icon={faComputer} className='fa fa-2xl' />
+
             <h3 className="text-2xl  font-semibold">IT Agencies</h3>
           </div>
 
@@ -159,11 +156,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
-              src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
-              alt="Webstore Icon" 
-              className="h-12 w-12" // Control the size of the icon
-            />
+          <FontAwesomeIcon icon={faVideo} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Digital Marketing</h3>
           </div>
 
@@ -209,11 +202,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
-              src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
-              alt="Webstore Icon" 
-              className="h-12 w-12" // Control the size of the icon
-            />
+          <FontAwesomeIcon icon={faPlay} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Freelancers</h3>
           </div>
 
@@ -259,11 +248,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
-              src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
-              alt="Webstore Icon" 
-              className="h-12 w-12" // Control the size of the icon
-            />
+          <FontAwesomeIcon icon={faCookie} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Second-hand Goods</h3>
           </div>
 
@@ -309,11 +294,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-            <img 
-              src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/use-case-educational/product-icons/Web_Store.svg" 
-              alt="Webstore Icon" 
-              className="h-12 w-12" // Control the size of the icon
-            />
+          <FontAwesomeIcon icon={faWallet} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Fintech</h3>
           </div>
 
