@@ -109,7 +109,7 @@ export default function UseCases() {
 
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-          <FontAwesomeIcon icon={faComputer} className='fa fa-2xl' />
+          <FontAwesomeIcon icon={faLaptopCode} className='fa fa-2xl' />
 
             <h3 className="text-2xl  font-semibold">IT Agencies</h3>
           </div>
@@ -156,7 +156,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-          <FontAwesomeIcon icon={faVideo} className='fa fa-2xl' />
+          <FontAwesomeIcon icon={faBullhorn} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Digital Marketing</h3>
           </div>
 
@@ -202,7 +202,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-          <FontAwesomeIcon icon={faPlay} className='fa fa-2xl' />
+          <FontAwesomeIcon icon={faUserTie} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Freelancers</h3>
           </div>
 
@@ -248,7 +248,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-          <FontAwesomeIcon icon={faCookie} className='fa fa-2xl' />
+          <FontAwesomeIcon icon={faExchangeAlt} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Second-hand Goods</h3>
           </div>
 
@@ -294,7 +294,7 @@ export default function UseCases() {
         </div>
         <div className="bg-white shadow-xl  rounded-xl p-6 flex flex-col items-center">
           <div className="inline-flex  w-full  mb-4 space-x-4 ">
-          <FontAwesomeIcon icon={faWallet} className='fa fa-2xl' />
+          <FontAwesomeIcon icon={faMoneyBillWave} className='fa fa-2xl' />
             <h3 className="text-2xl  font-semibold">Fintech</h3>
           </div>
 
