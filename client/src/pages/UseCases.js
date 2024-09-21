@@ -372,7 +372,7 @@ export default function UseCases() {
         </div>
 
 
-        <div className="h-[500px] flex items-center justify-center bg-gradient-to-r from-[#D7BDFD] to-[#ca90f9da] mb-4">
+        <div className="h-[500px] flex items-center justify-center bg-gradient-to-r from-[#EFFFFA] to-[#EFFFFA] mb-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">
               Key Features of Trustopay
@@ -452,39 +452,48 @@ export default function UseCases() {
 
         </div>
 
+            {/* <div style={{'clip-path': 'polygon(100% 0, 100% 54%, 0 100%, 0 54%)'}} className='h-[500px]  w-full'>
 
-        <div className='h-[500px] bg-gray-300 flex justify-center items-center w-full  '>
-          <div className='  w-full flex justify-between items-center px-48'>
-            <div className='w-5/2 h-full pl-24'>
-              <img
-                src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/usecase-real-estate/case-study-section/dlf_building.png"
-                alt="Girl in a jacket"
+            </div> */}
+ <div className='relative h-[600px]  flex justify-center items-center w-full'>
+  {/* Pseudo-element using ::before */}
+  <div style={{'clipPath': 'polygon(100% 10%, 100% 75%, 0 98%, 0 30%)'}} className='absolute top-0 left-0 w-full h-full bg-gray-200 z-[-1]'>
+    
+  </div>
 
-
-                className="rounded-lg h-full w-[400px] shadow-lg"
-              />
-            </div>
-            <div className='ml-12 w-1/2 px-12 py-2 items-start'>
-              <div className='space-y-8'>
-
-                <h2 className='text-3xl font-semibold font-custom mb-4'>A Seamless Transaction Process for E-Commerce Payments</h2>
-                <div className='flex flex-col'>
-                  <p className='text-md font-medium text-gray-600 mb-2'>Trustopay offers a streamlined and efficient payment process for e-commerce platforms, ensuring smooth transactions from start to finish. Our solution simplifies payment collection with minimal friction, enhancing the overall user experience and allowing businesses to focus on growth while we handle the complexities of payment processing securely and reliably.</p>
-
-                </div>
-                <div className='space-x-4 flex'>
-                  <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
-                    Learn More
-                  </button>
-                  <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
-                    Get Started Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+  {/* Main Content */}
+  <div className='w-full flex justify-between items-center px-48 relative z-10'>
+    <div className='w-5/2 h-full pl-24'>
+      <img
+        src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/usecase-real-estate/case-study-section/dlf_building.png"
+        alt="Girl in a jacket"
+        className="rounded-lg h-full w-[400px] shadow-lg"
+      />
+    </div>
+    <div className='ml-12 w-1/2 px-12 py-2 items-start'>
+      <div className='space-y-8'>
+        <h2 className='text-3xl font-semibold font-custom mb-4'>
+          A Seamless Transaction Process for E-Commerce Payments
+        </h2>
+        <div className='flex flex-col'>
+          <p className='text-md font-medium text-gray-600 mb-2'>
+            Trustopay offers a streamlined and efficient payment process for e-commerce platforms, ensuring smooth transactions from start to finish. Our solution simplifies payment collection with minimal friction, enhancing the overall user experience and allowing businesses to focus on growth while we handle the complexities of payment processing securely and reliably.
+          </p>
         </div>
+        <div className='space-x-4 flex'>
+          <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
+            Learn More
+          </button>
+          <button className='flex items-center px-6 py-2 border-2 hover:bg-gradient-to-r from-[#703893] to-[#3f4195] border-[#703893] text-[#703893] font-semibold rounded-full transition duration-300 hover:bg-[#703893] hover:text-white'>
+            Get Started Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+        
 
       </div>
 
