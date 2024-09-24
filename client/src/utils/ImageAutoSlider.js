@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
+import img1 from "../assets/images/about_us/IMG_0598.jpg"
+import img2 from "../assets/images/about_us/IMG_20231008_090055150.jpg"
+import img3 from "../assets/images/about_us/IMG_20231230_111030471.jpg"
+import img4 from "../assets/images/about_us/IMG_20240706_184634671 (1).jpg"
+
+
 const ImageAutoSlider = () => {
   const images = [
-    'https://trustopay.vercel.app/assets/images/image.jpeg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5xketM_K_BqnGWZIi7NH69LdqOykhqTlYUQ&s',
-    'https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/group.png'
-
+    img1,img2,img3,img3
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,6 +53,11 @@ const ImageAutoSlider = () => {
             />
           </div>
         ))}
+        
+
+
+
+
       </div>
 
       <button
